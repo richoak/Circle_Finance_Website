@@ -22,9 +22,9 @@ const Header = () => {
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
        
-          <Link href="/helpers" activeClassName="is-active" >
+          {/* <Link href="/helpers" activeClassName="is-active" >
             <a className={router.pathname == "/helpers" ? "nav-link nav-item navitemactive" : "nav-link nav-item"} href="#">Helpers </a>
-            </Link>
+            </Link> */}
       
             <Link href="/about" activeClassName="is-active" >
             <a className={router.pathname == "/about" ? "nav-link nav-item navitemactive" : "nav-link nav-item"} href="#">About </a>
