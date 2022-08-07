@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import HelperDetail from "./Helperdetail";
+import HelperDetail from "./HelperDetail";
 
 const AllHelpers = (props) => {
     console.log(props)
