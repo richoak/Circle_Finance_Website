@@ -1,0 +1,16 @@
+{
+  "/_error": "pages/_error.js",
+  "/_app": "pages/_app.js",
+  "/api/new-helper": "pages/api/new-helper.js",
+  "/about": "pages/about.html",
+  "/helpers": "pages/helpers.html",
+  "/helpersignup": "pages/helpersignup.html",
+  "/": "pages/index.html",
+  "/signin": "pages/signin.html",
+  "/signup": "pages/signup.html",
+  "/stepone": "pages/stepone.html",
+  "/stepthree": "pages/stepthree.html",
+  "/steptwo": "pages/steptwo.js",
+  "/_document": "pages/_document.js",
+  "/404": "pages/404.html"
+}
