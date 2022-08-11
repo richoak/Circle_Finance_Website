@@ -2,9 +2,11 @@ import React, { Fragment, useRef, useState } from "react";
 import Header from "../Header";
 import classes from "./Stepone.module.css"
 import { useRouter } from 'next/router';
+import Link from "next/link";
 
 import { useDispatch } from "react-redux";
 import { errandActions } from "../../store/errandSlice";
+import { useSelector } from "react-redux";
 
 const Stepone = () => {
 
@@ -12,13 +14,19 @@ const Stepone = () => {
     const dispatch = useDispatch()    
     const errandRef = useRef()
     const [error, setError] = useState("")
+    const [loading, setLoading] = useState(false)
+    const location = useSelector(state => state.errand.location)
+    console.log(location)
 
     const steponeHandler = () => {
+        setLoading(true)
         const errandInput = errandRef.current.value
         if(errandInput === ""){
             setError("Errand field is empty!")
+            setLoading(false)
         }
         else{
+            setError("Just a second...")
             dispatch(errandActions.addErrand({
                 'errandBody':errandRef.current.value,
             }))
@@ -43,7 +51,22 @@ const Stepone = () => {
                  
                  {/* <p style={{textAlign:"center"}}>Errand field is empty!</p> */}
                  {/* <p style={{textAlign:"center"}}> */}
-                    <button  data-testid="num2" onClick={steponeHandler} style={{backgroundColor:"#000", color:"#FFF"}} type="submit" class="btn">See helpers & prices</button>
+                 <Link href="/">
+                 <button  style={{backgroundColor:"#000", color:"#FFF"}} type="submit" class="btn"> Go Back</button>
+                 </Link>
+
+                    <button  data-testid="num2" onClick={steponeHandler} 
+                    style={{backgroundColor:"#000", color:"#FFF", marginLeft:"20px"}} 
+                    type="submit" class="btn">
+                        
+                    { loading &&   <div style={{marginRight:"10px"}} class="spinner-border spinner-border-sm" role="status">
+                            <span class="sr-only">Loading...</span>
+                        </div>}
+
+                         See helpers & prices
+                        
+                  
+                         </button>
                     {/* </p> */}
                 </div>
                 <div className="col-md-2"></div>

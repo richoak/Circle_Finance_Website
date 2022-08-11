@@ -27,12 +27,15 @@ const HelperDetail = (props) => {
             <div className={classes.box}>
             <div className="row">
             <div className="col-md-3">
+                <p style={{textAlign:"center"}}>
                 <img className={classes.image} src={props.image} alt="" />
+                </p>
+               
             </div>
             <div className="col-md-9">
-            <h4>{props.name} <span className={classes.price}>&#x20A6;{props.price}/hr</span></h4>
+            <h4>{props.name} <span className={classes.price}>&#x20A6;{parseInt(props.price).toLocaleString()}/hr</span></h4>
             <h6><i class="fas fa-running"></i>  {props.totalErrands} Errands ran</h6>
-            <h6><i class="fas fa-car"></i> Mobile: {props.mobile}</h6>
+            <h6><i class="fas fa-car"></i> Mobile: <span style={{textTransform:"capitalize"}}>{props.mobile}</span></h6>
             <h6><i class="far fa-star"></i> Ratings: {props.ratings} ({props.noofreviews} reviews)</h6>
      
             <hr />
@@ -44,7 +47,8 @@ const HelperDetail = (props) => {
         </div>
             </div>
    
-      
+      <br />
+      <br />
         </Fragment>
       
 

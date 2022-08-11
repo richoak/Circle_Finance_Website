@@ -2,7 +2,8 @@ import { createSlice } from '@reduxjs/toolkit'
 
 const initialErrandState = { 
     details: [],
-    errandBody:""
+    errandBody:"",
+    location:""
 }
 const errandSlice = createSlice({
     name: 'errand',
@@ -13,6 +14,9 @@ const errandSlice = createSlice({
         },
         addErrand(state, action){
             state.errandBody = action.payload
+        },
+        addLocation(state, action){
+            state.location = action.payload
         }
     }
 });

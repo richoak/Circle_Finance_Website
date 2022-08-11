@@ -2,9 +2,12 @@ import Router from "next/router";
 import React from "react";
 import { useRouter } from "next/router"
 import { ReactSearchAutocomplete } from 'react-search-autocomplete'
+import { useDispatch } from "react-redux";
+import { errandActions } from "../store/errandSlice";
 
 const autoComplete = () => {
   const router = useRouter();
+  const dispatch = useDispatch()    
     const items = [
         {
           id: 0,
@@ -25,6 +28,54 @@ const autoComplete = () => {
         {
           id: 4,
           name: 'Zuba'
+        },
+        {
+          id: 5,
+          name: 'Durumi'
+        },
+        {
+          id: 6,
+          name: 'Garki'
+        },
+        {
+          id: 7,
+          name: 'Nyanya'
+        },
+        {
+          id: 8,
+          name: 'Gudu'
+        },
+        {
+          id: 9,
+          name: 'Guzape'
+        },
+        {
+          id: 10,
+          name: 'Wumba'
+        },
+        {
+          id: 11,
+          name: 'Lokogoma'
+        },
+        {
+          id: 12,
+          name: 'Lugbe'
+        },
+        {
+          id: 13,
+          name: 'Gwarinpa'
+        },
+        {
+          id: 14,
+          name: 'Kado'
+        },
+        {
+          id: 15,
+          name: 'Orozo'
+        },
+        {
+          id: 16,
+          name: 'Mabushi'
         }
       ]
 
@@ -41,8 +92,11 @@ const autoComplete = () => {
     
       const handleOnSelect = (item) => {
         // the item selected
+        dispatch(errandActions.addLocation({
+          'location':item.name,
+      }))
         router.push(`/stepone?location=${item.name}`)
-        console.log(item)
+      
       }
     
       const handleOnFocus = () => {
@@ -57,6 +111,8 @@ const autoComplete = () => {
           </>
         )
       }
+
+   
     
       return (
         <div className="App">
@@ -67,7 +123,7 @@ const autoComplete = () => {
                 fontFamily: "Avenir Next,Avenir,Segoe UI,Roboto,Helvetica Neue,Helvetica,Arial,sans-serif",
               
                 }}
-                placeholder="Search by location"
+                placeholder="Search by location ( Abuja only )"
                 items={items}
                 onSearch={handleOnSearch}
                 onHover={handleOnHover}

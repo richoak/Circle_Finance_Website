@@ -24,6 +24,15 @@ const HelperSignUp = () => {
         const createdUser = ((response) => {
             console.log(response)
             router.push(`/helpersignup`)
+            nameRef.current.value = ""
+             totalErrandsRef.current.value = "",
+            mobileRef.current.value= "",
+            summaryRef.current.value= "",
+            imageRef.current.value= "",
+            ratingsRef.current.value= "",
+            noofreviewsRef.current.value= "",
+            priceRef.current.value= "",
+            phoneRef.current.value= ""
         })
 
         sendSignUpRequest({
