@@ -22,9 +22,11 @@ const SteptwoPage = (props) => {
 // RUNS DURING THE BUILD PROCESS
 export async function getStaticProps(){
   // Fetch data from API
+  const connectionString = `mongodb+srv://${process.env.mongodb_username}:${process.env.mongodb_password}@${process.env.mongodb_clustername}.psbon9s.mongodb.net/${process.env.mongodb_database}?retryWrites=true&w=majority`
+
   const client = await MongoClient.connect(
-      'mongodb+srv://meetups:marvinsroom@cluster0.psbon9s.mongodb.net/meetups?retryWrites=true&w=majority'
-    );
+    connectionString
+        );
     const db = client.db();
 
     const helpersCollection = db.collection('helpers');

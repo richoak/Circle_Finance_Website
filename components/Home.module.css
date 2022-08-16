@@ -1,7 +1,6 @@
 
 
 .homepage{
-    /* background-image: url("../images/homepagebg.jpeg"); */
     height: 800px; 
     background-position: center;
     background-repeat: no-repeat; 
@@ -10,17 +9,8 @@
 
 .box{
     background-color:#FFF;
-    /* margin-left:550px;
-    margin-right:350px; */
-    /* margin-top:150px; */
-  
     padding-top:160px;
     padding-bottom:50px;
-    /* padding-left:50px;
-    padding-right:50px; */
-   
-    /* position:absolute */
- 
 }
 
 .homepage_search{

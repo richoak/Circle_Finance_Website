@@ -2,12 +2,11 @@ import React, { Fragment } from "react";
 import Header from "./Header";
 import classes from "./Home.module.css"
 import Autocomplete from "../utils/autoComplete"
-import { useSelector } from "react-redux";
+
 
 
 const Home = () => {
-    const isAuth = useSelector(state => state.auth.isAuthenticated)
-    const userDetails = useSelector(state => state.auth.userDetails)
+
 
 
     return (
