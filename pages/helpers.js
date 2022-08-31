@@ -6,7 +6,7 @@ const HelpersPage = () => {
   return (
     <Fragment>
     <Head>
-    <title>Helpers | Chores </title>
+    <title>Helpers | Workerr </title>
     <meta 
     name="description" 
     content="Find trusted hands to handle your chores"/>  

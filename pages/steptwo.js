@@ -7,7 +7,7 @@ const SteptwoPage = (props) => {
   return (
     <Fragment>
     <Head>
-    <title>Step Two | Chores </title>
+    <title>Step Two | Workerr </title>
     <meta 
     name="description" 
     content="Find trusted hands to handle your chores"/>  

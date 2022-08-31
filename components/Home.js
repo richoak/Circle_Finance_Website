@@ -34,7 +34,7 @@ const Home = () => {
                 
                         
                 </div>         
-                <h6 className={classes.chores}>&copy; Chores 2022</h6>
+                <h6 className={classes.chores}>&copy; Workerr 2022</h6>
             </div>
   
         </Fragment>

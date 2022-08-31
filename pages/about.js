@@ -6,7 +6,7 @@ const AboutPage = () => {
   return (
     <Fragment>
     <Head>
-    <title>About | Chores </title>
+    <title>About | Workerr</title>
     <meta 
     name="description" 
     content="Find trusted hands to handle your chores"/>  
