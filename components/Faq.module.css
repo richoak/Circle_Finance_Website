@@ -1,0 +1,115 @@
+.faq_title{
+    text-align:center;
+    padding-top: 75px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight:700;
+    font-size:48px;
+    line-height:57.6px
+}
+
+.faq_title2{
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight:700;
+    font-size:40px;
+    line-height:48px;
+    padding-bottom:48px
+}
+
+.faq_subtitle{
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 400;
+    font-size:16px;
+    line-height: 22px;
+    color: #999999;
+    text-align:center;
+    padding-bottom:93px
+}
+
+.faqheader{
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight:500!important;
+    font-size:18px;
+    line-height: 141%;
+    color:#000000
+}
+
+.faqbody{
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight:400;
+    font-size:16px;
+    line-height: 24px;
+    color:#303A42!important
+}
+
+.faqhr{
+    margin-top:80px;
+    margin-bottom:80px;
+
+}
+
+.growth_steps{
+    margin-top:150px;
+       height: 520px; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-image: url(/images/homepage/growth_bg.svg);
+}
+
+.desktoponly{
+    display:block
+}
+
+.mobileonly{
+    display:none
+}
+
+@media (min-width:1025px) and (max-width:1366px) {
+ 
+}
+
+  @media (min-width:768px) and (max-width:1024px) {
+ 
+  }
+
+   @media (min-width:375px) and (max-width:767px) {
+    .desktoponly{
+        display:none
+    }
+    
+    .mobileonly{
+        display:block
+    }
+
+    .faq_title{
+        text-align:center;
+        padding-top: 75px;
+        font-family: 'Hanken Grotesk', sans-serif;
+        font-weight:700;
+        font-size:32px;
+        line-height: 38.4px;
+    }
+
+    .faq_title2{
+        /* text-align:center; */
+        padding-top: 0px;
+        font-family: 'Hanken Grotesk', sans-serif;
+        font-weight:700;
+        font-size:32px;
+        line-height: 38.4px;
+    }
+
+    .faq_title3{
+        /* text-align:center; */
+        padding-top: 40px;
+        padding-bottom: 20px;
+        font-family: 'Hanken Grotesk', sans-serif;
+        font-weight:700;
+        font-size:32px;
+        line-height: 38.4px;
+    }
+
+    .faqhr{
+        display:none
+    }
+}

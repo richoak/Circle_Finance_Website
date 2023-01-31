@@ -1,0 +1,65 @@
+
+.navigationbar{
+    margin-top:125px;
+    padding-bottom:74px
+}
+
+.footerlogo{
+    margin-bottom:40px
+}
+
+.footertitle{
+    font-weight:600;
+    font-size:22px;
+    line-height: 26.4px;
+    color:#323740;
+    padding-bottom:10px
+}
+
+.footersubtitle{
+    font-weight:400;
+    font-size:16px;
+    line-height: 16px;
+    color:#404A5C;
+    text-decoration:none!important;
+    /* float:left; */
+    padding-top:20px;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.otherfootersubtitle{
+    font-weight:300;
+    font-size:16px;
+    line-height: 24px;
+    color:#646B78;
+    font-family: 'Hanken Grotesk', sans-serif;
+    padding-top:20px
+
+    /* padding-top:24px */
+}
+
+.footerhr{
+    margin-top:52px;
+    margin-bottom:40px
+}
+
+.footersocialicons{
+    float:left;
+    padding-left:10px
+}
+
+
+
+@media (min-width:375px) and (max-width:767px) {
+    .navigationbar{
+        margin-top:100px;
+        padding-bottom:74px
+    }
+
+    .footermid{
+        margin-top:30px;
+        margin-bottom:30px
+    }
+
+ 
+}

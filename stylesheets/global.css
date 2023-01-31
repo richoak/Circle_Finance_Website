@@ -1,7 +1,107 @@
-body{
-    font-family: Avenir Next,Avenir,Segoe UI,Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
+
+html,body {
+width: 100%;
+  margin: 0; 
+  padding: 0; 
+  overflow-x: hidden;
+}
+.accordion-item{
+    border-left:none;
+    border-right:none;
 }
 
-.navitemactive{
-    color:#80471C!important
+
+.rightarrow {
+    position: relative;
+    animation: myfirst 5s 30;
+    animation-direction: alternate;
+    animation-play-state: running;
+    
+  }
+
+
+  
+  @keyframes myfirst {
+    0%   {left: 0px; top: 0px;}
+    25%  {left: 100px; top: 0px;}
+    100%{ left: 0px; top: 0px;}
+  }
+
+  .downarrow {
+    position: relative;
+    animation: mysecond 5s 30;
+    animation-direction: alternate;
+    animation-play-state: running;
+    
+  }
+  
+  @keyframes mysecond {
+    0%   { left: 0px; top: 0px;}
+    100%  { left: 0px; top: 50px;}
+  }
+
+
+
+.accordion-button::after {
+    background-image: url(/images/homepage/close.svg)!important;
 }
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url(/images/homepage/open.svg)!important;
+   
+}
+
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #A6A6A6
+}
+
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #A6A6A6
+}
+
+.form-control::-ms-input-placeholder { /* Microsoft Edge */
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #A6A6A6
+}
+
+.form-control:focus{
+    /* color: #245E7E!important */
+    outline: none !important;
+    border:1px solid #245E7E;
+    box-shadow: 0 0 10px #245E7E;
+}
+
+
+button:not(:disabled) {
+    font-weight: 500;
+}
+
+.accordion-button:not(.collapsed) {
+    font-weight: 500;
+    background-color: #FFF;
+}
+
+.accordion-button:not(.collapsed) {
+    color:#DD3636;
+    font-weight: 700;
+    font-size:17px;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+/* .accordion-item:first-of-type .accordion-button {
+    font-weight: 500!important;
+} */

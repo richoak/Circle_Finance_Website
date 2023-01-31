@@ -1,0 +1,66 @@
+.steps_title{
+   
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 600;
+    font-size:40px;
+    line-height: 48px;
+}
+
+.steps_subtitle{
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 600;
+    font-size:20px;
+    line-height: 24px;
+    color:#323740
+}
+
+.steps_subtitle_trust{
+    margin-top:8px;
+    /* margin-bottom:32px; */
+    color: #404A5C;
+    font-size:16px;
+    font-weight:300;;
+    font-family: 'Hanken Grotesk', sans-serif;
+    line-height: 24px;
+}
+
+.steps_inner_box{
+    margin-top:40px;
+
+}
+
+.make_red{
+    color:#DD3636
+}
+
+.stepsbox{
+    background-color: #FFFCF5;
+    padding: 100px 0px 100px 0px
+}
+
+.desktoponly{
+    display:block
+}
+
+.mobileonly{
+    display:none
+}
+
+@media (min-width:375px) and (max-width:767px) {
+    .desktoponly{
+        display:none
+    }
+    
+    .mobileonly{
+        display:block
+    }
+
+    .steps_title{
+        font-size:32px;
+        line-height: 38.4px;
+    }
+
+.investorsimage{
+    margin-top:40px
+}
+}

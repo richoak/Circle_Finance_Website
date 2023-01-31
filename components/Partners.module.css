@@ -1,0 +1,28 @@
+.partners_box{
+    background-color:#FCFAF7;
+    padding: 40px 0px 40px 0px;
+
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.partners_image{
+    margin-left:60px;
+    display: inline-block;
+}
+
+@media (min-width:1025px) and (max-width:1366px) {
+    .partners_image{
+        margin-left:40px;
+    }
+}
+
+  @media (min-width:768px) and (max-width:1024px) {
+    .partners_image{
+        margin-left:40px;
+    }
+  }
+
+   @media (min-width:375px) and (max-width:767px) {
+      
+   }

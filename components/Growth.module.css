@@ -1,0 +1,38 @@
+.investorsimage{
+    padding-top:63px;
+}
+
+.steps_title{
+    padding-top:150px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 600;
+    font-size:40px;
+    line-height: 57.6px;
+    color:#FFF
+}
+
+.steps_subtitle{
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 600;
+    font-size:20px;
+    line-height: 24px;
+    color:#EAEBEE
+}
+
+.steps_subtitle_trust{
+    margin-top:16px;
+    /* margin-bottom:32px; */
+    color:#EAEBEE;
+    font-size:18px;
+    font-weight:300;;
+    font-family: 'Hanken Grotesk', sans-serif;
+    line-height: 27px;
+}
+
+.steps_inner_box{
+    margin-top:40px
+}
+
+.make_red{
+    color:#DD3636
+}

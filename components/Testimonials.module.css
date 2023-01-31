@@ -1,0 +1,81 @@
+.testimonial_title{
+    /* padding-top:150px; */
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 700;
+    font-size:48px;
+    line-height: 57.6px;
+    color:#1D3554
+}
+
+
+
+.testimonial_subtitle{
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 300;
+    font-size:18px;
+    line-height: 24px;
+    color:#646B78;
+   
+}
+
+.testify_title{
+    /* padding-top:150px; */
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 600;
+    font-size:22px;
+    line-height: 26.4px;
+    color:#1D3554
+}
+
+.testify_body{
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 300;
+    font-size:14px;
+    line-height: 21px;
+    color:#6B7487;
+    text-align: justify;
+    
+}
+
+.testimonial_box{
+    box-shadow: 0px 22px 80px rgba(0, 0, 0, 0.07), 0px 4.91399px 17.869px rgba(0, 0, 0, 0.0417275), 0px 1.46302px 5.32008px rgba(0, 0, 0, 0.0282725);
+    padding:20px;
+    border-radius:4px
+}
+
+.testimonial_second_box{
+    box-shadow: 0px 22px 80px rgba(0, 0, 0, 0.07), 0px 4.91399px 17.869px rgba(0, 0, 0, 0.0417275), 0px 1.46302px 5.32008px rgba(0, 0, 0, 0.0282725);
+    padding:20px;
+    border-radius:4px;
+    margin-top:56px;
+    height:250px
+}
+
+
+.make_red{
+    color:#DD3636
+}
+
+@media (min-width:1025px) and (max-width:1366px) {
+    .testimonial_box{
+        box-shadow: 0px 22px 80px rgba(0, 0, 0, 0.07), 0px 4.91399px 17.869px rgba(0, 0, 0, 0.0417275), 0px 1.46302px 5.32008px rgba(0, 0, 0, 0.0282725);
+        padding:20px;
+        border-radius:4px;
+        height:250px
+    }
+ 
+}
+
+  @media (min-width:768px) and (max-width:1024px) {
+ 
+  }
+
+   @media (min-width:375px) and (max-width:767px) {
+    .testimonial_title{
+        font-family: 'Hanken Grotesk', sans-serif;
+        font-weight: 700;
+        font-size:32px;
+        line-height: 38.4px;
+        color:#1D3554
+    }
+   }

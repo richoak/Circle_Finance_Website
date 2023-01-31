@@ -1,3 +1,159 @@
 .navbar{
     background-color: #FFF;
 }
+
+.header_button {
+    padding: 10px 28px;
+    background: #2F6D67;
+    border-radius: 4px;
+    color:#FFF;
+    border-color: #2F6D67;
+    font-size: 16px;
+    font-weight:500;
+    font-style:normal;
+    font-family: 'Hanken Grotesk', sans-serif;
+    border-color: transparent;
+}
+
+.headernavbar{
+    border-bottom: 1px solid #EAEBEE;
+    padding-bottom:20px
+}
+
+.header_arrow_right{
+   padding-left:10px
+}
+
+.navigationbar{
+    padding-top:24px
+}
+
+.navigationmenu{
+    padding-top:12px;
+    padding-right: 13px;
+    
+}
+
+.header_hr{
+    border-top: 1px solid #EAEBEE;
+}
+
+.menuitem{
+    margin-right: 40px;
+    color: #6B7487!important;
+    font-size: 18px;
+    font-weight:500;
+    font-style:normal;
+    font-family: 'Hanken Grotesk', sans-serif;
+    /* line-height: 20px */
+
+}
+
+.lastmenuitem{
+    margin-right: 350px;
+    color: #6B7487!important;
+    font-size: 18px;
+    font-weight:500;
+    font-style:normal;
+    font-family: 'Hanken Grotesk', sans-serif;
+    /* line-height: 20px */
+}
+
+.navbarinnerrow{
+    padding-right:70px;
+    margin-top:20px;
+    /* padding:25px */
+}
+
+.navbartitle{
+    
+    padding-left:20px;
+    font-family: 'Hanken Grotesk';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 100%;;
+color: #323740;
+cursor:pointer
+}
+
+.navbardescription{
+    font-family: 'Hanken Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #687181;
+    padding-left:20px;
+    margin-top:-10px
+}
+
+.navbarinnerrow{
+    margin-top:20px
+}
+
+.navbarouter{
+    box-shadow: 0px 18px 80px rgba(0, 0, 0, 0.07), 0px 4.02054px 17.869px rgba(0, 0, 0, 0.0417275), 0px 1.19702px 5.32008px rgba(0, 0, 0, 0.0282725);
+    border-radius: 16px;
+}
+
+.navbarinner:hover{
+    background-color: #FFF;
+}
+
+.productmenu{
+    width:700px
+}
+
+
+
+
+.desktoponly{
+    display:block
+}
+
+.mobileonly{
+    display:none
+}
+
+
+
+
+
+@media (min-width:1025px) and (max-width:1366px) {
+ 
+}
+
+  @media (min-width:768px) and (max-width:1024px) {
+ 
+  }
+
+   @media (min-width:375px) and (max-width:767px) {
+    .desktoponly{
+        display:none
+    }
+    
+    .mobileonly{
+        display:block
+    }
+
+    .navbarinnerrow{
+
+    }
+
+    .firstmenuitem{
+        margin-top:30px
+    }
+
+    .secondmenuitem{
+        margin-top:10px
+    }
+
+
+    .companyoption{
+        width:75%
+    }
+    .productoption{
+        width: 45%;
+    }
+}

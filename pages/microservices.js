@@ -1,20 +1,20 @@
 import React, {Fragment} from "react"
 import Head from "next/head"
-import About from "../components/About"
+import Microservices from "../components/Microservices"
 
-const AboutPage = () => {
+const MicroServicesPage = () => {
   return (
     <Fragment>
     <Head>
-    <title>About | Oak Finance </title>
+    <title>Micro Services | Oak Finance </title>
     <meta 
     name="description" 
     content=""/>  
     </Head>  
-    <About/>
+    <Microservices/>
 </Fragment>
    
   )
 }
 
-export default AboutPage 
+export default MicroServicesPage 

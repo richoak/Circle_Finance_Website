@@ -1,0 +1,45 @@
+.faq_title{
+    text-align:center;
+    padding-top: 75px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight:700;
+    font-size:48px;
+    line-height:57.6px
+}
+
+.faq_subtitle{
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 400;
+    font-size:16px;
+    line-height: 22px;
+    color: #999999;
+    text-align:center;
+    padding-bottom:93px
+}
+
+.faqheader{
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight:500!important;
+    font-size:18px;
+    line-height: 141%;
+    color:#000000
+}
+
+.faqbody{
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight:300;
+    font-size:16px;
+    line-height: 24px;
+    color:#303A42!important
+}
+
+@media (min-width:375px) and (max-width:767px) {
+.faq_title{
+    text-align:center;
+    padding-top: 75px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight:700;
+    font-size:32px;
+    line-height: 38.4px;
+}
+}
