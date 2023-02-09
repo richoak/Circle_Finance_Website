@@ -34,7 +34,7 @@ const Home = () => {
                     <div className="col-md-6">
                     <h4 className={classes.homepage_title}>Building <span className={classes.make_red}>Wealth</span>, the easy and reliable way.</h4>
                     <h6 className={classes.homepage_subtitle}>Building wealth shouldn't be nerve racking. With Oak Finance, you  can now make the most of your finances and build wealth with  ease.</h6>
-                    <button  className={classes.homepage_button}>Sign up now</button>
+                    <a href="https://www.rich-oak.com/signup" target="_blank"> <button  className={classes.homepage_button}>Sign up now</button></a>
                     {/* <a href="#partners"> <img className={classes.homepage_scroll} src="/images/homepage/scroll.svg"/></a> */}
                    
                     <img className={`downarrow ${classes.homepage_scroll}`}  src="/images/homepage/scroll.svg" alt="" />

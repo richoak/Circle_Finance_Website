@@ -50,13 +50,13 @@ const Header = () => {
                 <Nav.Link className="hmothermenu2" as={Link} href="/about" eventKey="4"  >
                 <p className={classes.navbartitle}>About Us</p>
                 </Nav.Link>
-                <p className={classes.navbardescription}>View including no-brainer across <br/>resources horse money devil data.</p>
+                <p className={classes.navbardescription}>Read about the company here.</p>
                
                 </div>
               </div>      
             </div>
 
-            <div className={`row ${classes.navbarinnerrow}`}>
+            {/* <div className={`row ${classes.navbarinnerrow}`}>
               <div className="col-md-2 col-2">
                 <img src="/images/homepage/navbar_icon.svg" alt="" />
               </div>
@@ -68,9 +68,9 @@ const Header = () => {
                 <p className={classes.navbardescription}>View including no-brainer across <br/>resources horse money devil data.</p>
                 </div>
               </div>      
-            </div>
+            </div> */}
 
-            <div className={`row ${classes.navbarinnerrow}`}>
+            {/* <div className={`row ${classes.navbarinnerrow}`}>
               <div className="col-md-2 col-2">
                 <img src="/images/homepage/navbar_icon.svg" alt="" />
               </div>
@@ -83,7 +83,7 @@ const Header = () => {
 
                 </div>
               </div>      
-            </div>
+            </div> */}
             </div>
      
       </div>
@@ -107,7 +107,7 @@ const Header = () => {
                 <Nav.Link className="hmothermenu2" as={Link} href="/product?name=premium" eventKey="4"  >
                 <p className={classes.navbartitle}>Premium</p>
                 </Nav.Link>
-                <p className={classes.navbardescription}>View including no-brainer across <br/>resources horse money devil data.</p>
+                <p className={classes.navbardescription}>Read more about this product offer</p>
                
                 </div>
               </div>      
@@ -122,7 +122,7 @@ const Header = () => {
                 <Nav.Link className="hmothermenu2" as={Link} href="/product?name=premiumplus" eventKey="4"  >
                 <p className={classes.navbartitle}>Premium Plus</p>
                 </Nav.Link>
-                <p className={classes.navbardescription}>View including no-brainer across <br/>resources horse money devil data.</p>
+                <p className={classes.navbardescription}>Read more about this product offer.</p>
                 </div>
               </div>      
             </div>
@@ -136,7 +136,7 @@ const Header = () => {
                 <Nav.Link className="hmothermenu2" as={Link} href="/product?name=reif" eventKey="4"  >
                 <p className={classes.navbartitle}>Real Estate Investment Fund</p>
                 </Nav.Link>
-                <p className={classes.navbardescription}>View including no-brainer across <br/>resources horse money devil data.</p>
+                <p className={classes.navbardescription}>Read more about this product offer.</p>
              
 
                 </div>
@@ -157,7 +157,7 @@ const Header = () => {
                 <Nav.Link className="hmothermenu2" as={Link} href="/product?name=platinum" eventKey="1"  >
                 <p className={classes.navbartitle}>Platinum Investment</p>
                 </Nav.Link>
-                <p className={classes.navbardescription}>View including no-brainer across <br/>resources horse money devil data.</p>
+                <p className={classes.navbardescription}>Read more about this product offer.</p>
                
                 </div>
               </div>      
@@ -172,7 +172,7 @@ const Header = () => {
                 <Nav.Link className="hmothermenu2" as={Link} href="/product?name=partnership" eventKey="2"  >
                 <p className={classes.navbartitle}>Limited Partnership</p>
                 </Nav.Link>
-                <p className={classes.navbardescription}>View including no-brainer across <br/>resources horse money devil data.</p>
+                <p className={classes.navbardescription}>Read more about this product offer.</p>
                 </div>
               </div>      
             </div>
@@ -186,7 +186,7 @@ const Header = () => {
                 <Nav.Link className="hmothermenu2" as={Link} href="microservices" eventKey="3"  >
                 <p className={classes.navbartitle}>Our Micro Services</p>
                 </Nav.Link>
-                <p className={classes.navbardescription}>View including no-brainer across <br/>resources horse money devil data.</p>
+                <p className={classes.navbardescription}>Read more about our microservices.</p>
                 
 
                 </div>
@@ -220,7 +220,7 @@ const Header = () => {
                 <Nav.Link className="hmothermenu2" as={Link} href="/contact" eventKey="4"  >
                 <p className={classes.navbartitle}>Contact Us</p>
                 </Nav.Link>
-                <p className={classes.navbardescription}>View including no-brainer across <br/>resources horse money devil data.</p>
+                <p className={classes.navbardescription}>Read more information about how<br/>to contact us.</p>
                
                 </div>
               </div>      
@@ -235,7 +235,7 @@ const Header = () => {
                 <Nav.Link className="hmothermenu2" as={Link} href="/faq" eventKey="5"  >
                 <p className={classes.navbartitle}>FAQs</p>
                 </Nav.Link>
-                <p className={classes.navbardescription}>View including no-brainer across <br/>resources horse money devil data.</p>
+                <p className={classes.navbardescription}>Read some of our frequently asked<br/> questions.</p>
                 </div>
               </div>      
             </div>
@@ -265,7 +265,7 @@ const Header = () => {
             <a className={`nav-link nav-item ${classes.lastmenuitem}`}  href="#">Support </a>
             </Link>
      */}
-           <button  className={`${classes.desktoponly} ${classes.header_button}`}>Sign up now </button>
+           <a href="https://www.rich-oak.com/signup" target="_blank"><button  className={`${classes.desktoponly} ${classes.header_button}`}>Sign up now</button></a> 
 
         </ul>
         </div>

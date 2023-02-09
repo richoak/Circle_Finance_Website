@@ -30,7 +30,7 @@ useEffect(() => {
 
     else if (query.name == "premiumplus"){
         setProduct(query.name)
-        setProductDescription("The Oak Premium Investment Plan is a savings plan that is tailored for individuals who earn a salary and want to consistently invest a specific amount of money each month towards a specific financial goal. This means that at the end of the first year, an additional 12% of the total investment will be added to the overall amount saved. This plan is an excellent option for those who want to save money consistently over time and earn a higher return on their investment.")
+        setProductDescription("The Oak Premium Plus is a high-yield investment option that allows investors to invest a larger sum of money at a competitive interest rate. This option is designed for individuals who have a significant amount of idle cash that they want to put to work and potentially increase their long-term earnings.Investing in Oak Premium Plus also offers investors the opportunity to diversify their portfolio and potentially mitigate risk by spreading their investment across multiple assets. This investment option is suitable for those who are willing to take on more risk in pursuit of a higher return on their investment.")
         setProductMinimumInvestment("50,000 Monthly")
         setProductDuration("12 Months")
         setProductInterest("16% Per Annum")

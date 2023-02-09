@@ -129,10 +129,12 @@ Premium Plus
 
                     <div className="col-md-6">
                     <h1 className={classes.tab_title}>Real Estate Investment Fund</h1>
-                    <h6 className={classes.tab_subtitle}>Our Real Estate Investment Fund presents an opportunity for individuals to own a share of prime real estate assets without having to come up with the full purchase price on their own. With just 500,000 and above at 18%   per annum, you become a fund owner.</h6>
+                    <h6 className={classes.tab_subtitle}>
+                    The Oak Real Estate Investment Fund is a unique investment opportunity that allows individuals to invest in a diversified portfolio of real estate assets. The fund is designed for investors who do not have the deep pockets to buy off properties or build from the ground up, but wish to own prime real estate. This means that you don't need to have a large amount of money to get started, and you can share in the ownership of valuable real estate assets.
+                        </h6>
                     <p className={classes.tabsbuttons}>
-                    <button  className={classes.homepage_button}>Start investing</button>
-                    <p  className={classes.tabs_button}>Learn more <img src="/images/homepage/green-right-arrow.svg" style={{paddingLeft:"15px", fontSize:"20px"}}/></p>
+                    <a href="/product?name=reif"><button  className={classes.homepage_button}>Start investing</button></a>
+                    {/* <p  className={classes.tabs_button}>Learn more <img src="/images/homepage/green-right-arrow.svg" style={{paddingLeft:"15px", fontSize:"20px"}}/></p> */}
                     
                     </p>
                  
@@ -153,7 +155,11 @@ Premium Plus
 
                     <div className="col-md-6">
                     <h1 className={classes.tab_title}>Premium Plus</h1>
-                    <h6 className={classes.tab_subtitle}>Our Real Estate Investment Fund presents an opportunity for individuals <br/>to own a share of prime real estate assets without having to come up <br/>with the full purchase price on their own. With just 500,000 and above at<br/> 18%, per annum, you become a fund owner..</h6>
+                    <h6 className={classes.tab_subtitle}>
+                    The Oak Premium Plus is a high-yield investment option that allows investors to invest a larger sum of money at a competitive interest rate. This option is designed for individuals who have a significant amount of idle cash that they want to put to work and potentially increase their long-term earnings.
+Investing in Oak Premium Plus also offers investors the opportunity to diversify their portfolio and potentially mitigate risk by spreading their investment across multiple assets. 
+                          
+                          </h6>
                     <p className={classes.tabs_learn_more}>Learn more <img src="/images/homepage/green-right-arrow.svg" style={{paddingLeft:"15px", fontSize:"20px"}}/></p>
                     </div>
 
@@ -172,7 +178,11 @@ Premium Plus
 
                     <div className="col-md-6">
                     <h1 className={classes.tab_title}>Premium</h1>
-                    <h6 className={classes.tab_subtitle}>Our Real Estate Investment Fund presents an opportunity for individuals <br/>to own a share of prime real estate assets without having to come up <br/>with the full purchase price on their own. With just 500,000 and above at<br/> 18%, per annum, you become a fund owner..</h6>
+                    <h6 className={classes.tab_subtitle}>
+                    The Oak Premium Investment Plan is a savings plan that is tailored for individuals who earn a salary and
+                     want to consistently invest a specific amount of money each month towards a specific financial goal.
+                     This means that at the end of the first year, an additional 12% of the total investment will be added to the overall amount saved. This plan is an excellent option for those who want to save money consistently over time and earn a higher return on their investment.
+                     </h6>
                     <p className={classes.tabs_learn_more}>Learn more <img src="/images/homepage/green-right-arrow.svg" style={{paddingLeft:"15px", fontSize:"20px"}}/></p>
                     </div>
 
@@ -191,7 +201,9 @@ Premium Plus
 
                     <div className="col-md-6">
                     <h1 className={classes.tab_title}>Platinum</h1>
-                    <h6 className={classes.tab_subtitle}>Our Real Estate Investment Fund presents an opportunity for individuals <br/>to own a share of prime real estate assets without having to come up <br/>with the full purchase price on their own. With just 500,000 and above at<br/> 18%, per annum, you become a fund owner..</h6>
+                    <h6 className={classes.tab_subtitle}>
+                    The Oak Platinum Investment Plan is a high-value investment option designed for individuals with large sums of money starting at 10 million naira and above. This plan is tailored for individuals who are looking to invest in a safe and profitable plan and want to get good returns on their investment.
+                    </h6>
                     <p className={classes.tabs_learn_more}>Learn more <img src="/images/homepage/green-right-arrow.svg" style={{paddingLeft:"15px", fontSize:"20px"}}/></p>
                     </div>
 
@@ -210,7 +222,8 @@ Premium Plus
 
                     <div className="col-md-6">
                     <h1 className={classes.tab_title}>Limited</h1>
-                    <h6 className={classes.tab_subtitle}>Our Real Estate Investment Fund presents an opportunity for individuals <br/>to own a share of prime real estate assets without having to come up <br/>with the full purchase price on their own. With just 500,000 and above at<br/> 18%, per annum, you become a fund owner..</h6>
+                    <h6 className={classes.tab_subtitle}>The Limited Partnership Fund is a partnership investment vehicle, where profit is shared between investing partners, based on their stake in the business (55% for major partners and 25% for minority partners). The project will run for ten years, during which time partners will receive monthly earnings. This is a unique investment opportunity that allows investors to be a part of a real estate project and share in its profits.
+                     </h6>
                     <p className={classes.tabs_learn_more}>Learn more <img src="/images/homepage/green-right-arrow.svg" style={{paddingLeft:"15px", fontSize:"20px"}}/></p>
                     </div>
 
