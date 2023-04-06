@@ -27,7 +27,7 @@ const Footer = () => {
           <p className={classes.footertitle}>About</p>
       
             <p><a className={classes.footersubtitle} href="">Blog</a></p>
-            <p><a className={classes.footersubtitle} href="">About</a></p>
+            <Link  as={Link} href="/about" className={classes.footersubtitle}><p style={{cursor:"pointer"}}>About</p></Link>
             <p><a className={classes.footersubtitle} href="">Career</a></p>
 
           <div>
@@ -43,9 +43,9 @@ const Footer = () => {
 
           <div className="col-md-2 col-6">
           <p className={classes.footertitle}>Products</p>
-           <p><a className={classes.footersubtitle} href="">Premium</a></p>
-            <p><a className={classes.footersubtitle} href="">Premium Plus</a></p>
-            <p><a className={classes.footersubtitle} href="">REIF</a></p>
+          <Link  as={Link} href="/credit" className={classes.footersubtitle}><p style={{cursor:"pointer"}}>Credit</p></Link>
+          <Link  as={Link} href="/investment" className={classes.footersubtitle}><p style={{cursor:"pointer"}}>Investment</p></Link>
+          <Link  as={Link} href="/microservices" className={classes.footersubtitle}><p style={{cursor:"pointer"}}>Microservices</p></Link>
             {/* <p><a className={classes.footersubtitle} href="">Blog</a></p>
             <p><a className={classes.footersubtitle} href="">About</a></p>
             <p><a className={classes.footersubtitle} href="">Company</a></p> */}
@@ -62,7 +62,7 @@ const Footer = () => {
             <p><a className={classes.footersubtitle} href="">Company</a></p> */}
           </div>
 
-          <div className={`col-md-2 col-6 ${classes.footermid}`}>
+          {/* <div className={`col-md-2 col-6 ${classes.footermid}`}>
         <p className={classes.footertitle}>Get Started</p>
         <p><a className={classes.footersubtitle} href="">Blog</a></p>
             <p><a className={classes.footersubtitle} href="">About</a></p>
@@ -70,17 +70,15 @@ const Footer = () => {
             <p><a className={classes.footersubtitle} href="">Blog</a></p>
             <p><a className={classes.footersubtitle} href="">About</a></p>
             <p><a className={classes.footersubtitle} href="">Company</a></p>
-        </div>
+        </div> */}
 
-        <div className="col-md-2 col-6">
+        {/* <div className="col-md-2 col-6">
         <p className={classes.footertitle}>External Links</p>
         <p><a className={classes.footersubtitle} href="">Rich Oak</a></p>
             <p><a className={classes.footersubtitle} href="">Credisol</a></p>
             <p><a className={classes.footersubtitle} href="">Earth VII</a></p>
-            {/* <p><a className={classes.footersubtitle} href="">Blog</a></p>
-            <p><a className={classes.footersubtitle} href="">About</a></p>
-            <p><a className={classes.footersubtitle} href="">Company</a></p> */}
-        </div>
+    
+        </div> */}
 </div>
      
 

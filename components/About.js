@@ -64,7 +64,7 @@ const About = () => {
         <h6 className={`${classes.about_secondbox_subtitle} ${classes.mobileonly}`}>
         At Circle Finance, our primary focus is on delivering excellent financial guidance and investment options to our clients. We acknowledge that everyone has distinctive financial needs and ambitions, and that's why we make every effort to provide personalized solutions that can help them hit their financial goals.
              </h6>    
-             <p className={classes.tabsbuttons}>
+             {/* <p className={classes.tabsbuttons}>
                     <a target="_blank" href="https://app.circlefinance.com"><button  className={classes.homepage_button}>Get started now</button></a>
 
                     <a href="/product?name=reif">
@@ -73,7 +73,7 @@ const About = () => {
                     </p>
                     </a>
                     
-                    </p>   
+                    </p>    */}
         </div> 
 
 

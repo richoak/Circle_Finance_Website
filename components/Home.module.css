@@ -458,7 +458,7 @@
         margin-left:10px
     }
     .desktoponly{
-        display:none
+        display:none;
     }
     
     .mobileonly{

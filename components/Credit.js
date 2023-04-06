@@ -6,6 +6,7 @@ import Growth from "./Growth";
 import Calculator from "./Calculator";
 import classes from "./Credit.module.css"
 import ContactExcerpt from "./Contactexcerpt";
+import Link from 'next/link';
 
 
 const Credit = () => {
@@ -44,11 +45,11 @@ const query = router.query
         <p className={classes.tabsbuttons}>
                     <a target="_blank" href="https://app.circlefinance.com"><button  className={classes.homepage_button}>Get access to loans</button></a>
 
-                    <a href="/product?name=reif" style={{paddingLeft:"15px"}}>
+                    {/* <a href="/product?name=reif" style={{paddingLeft:"15px"}}>
                     <p  className={classes.tabs_button}>Learn more 
                     <img src="/images/homepage/green-right-arrow.svg" style={{paddingLeft:"15px", fontSize:"20px"}}/>
                     </p>
-                    </a>
+                    </a> */}
                     
                     </p>   
         </div> 
@@ -96,11 +97,11 @@ const query = router.query
         <p className={classes.tabsbuttons}>
                     {/* <a target="_blank" href="https://app.circlefinance.com"><button  className={classes.homepage_button}>Start investing</button></a> */}
 
-                    <a href="/product?name=reif">
-                    <p  className={classes.tabs_button}>Get access to loans 
+                    <Link  as={Link} href="/investment">
+                    <p style={{cursor:"pointer"}}  className={classes.tabs_button}>Get access to loans 
                     <img src="/images/homepage/green-right-arrow.svg" style={{paddingLeft:"15px", fontSize:"20px"}}/>
                     </p>
-                    </a>
+                    </Link>
                     
                     </p>   
         </div> 
@@ -127,11 +128,11 @@ const query = router.query
         With Circle Finance, you can access your loan funds quickly and easily. We offer secure and convenient online access to your loan account, so you can manage your funds from anywhere, at any time. Whether you need to make a payment or check your balance, our user-friendly platform makes it easy to stay on top of your finances.
             </h6>
         <p className={classes.tabsbuttons}>
-                    <a href="/product?name=reif">
-                    <p  className={classes.tabs_button}>Get access to loans
+        <Link  as={Link} href="/investment">
+                    <p style={{cursor:"pointer"}}  className={classes.tabs_button}>Get access to loans
                     <img src="/images/homepage/green-right-arrow.svg" style={{paddingLeft:"15px", fontSize:"20px"}}/>
                     </p>
-                    </a>
+                    </Link>
                     
                     </p>   
         </div> 
@@ -162,11 +163,11 @@ data-aos-duration="3500"
              </h6>
         <p className={classes.tabsbuttons}>
 
-                    <a href="/product?name=reif">
-                    <p  className={classes.tabs_button}>Get access to loans 
+        <Link  as={Link} href="/investment">
+                    <p  style={{cursor:"pointer"}}  className={classes.tabs_button}>Get access to loans 
                     <img src="/images/homepage/green-right-arrow.svg" style={{paddingLeft:"15px", fontSize:"20px"}}/>
                     </p>
-                    </a>
+                    </Link>
                     
                     </p>   
         </div> 
@@ -196,11 +197,11 @@ data-aos-duration="4000"
             <p className={classes.tabsbuttons}>
                     {/* <a target="_blank" href="https://app.circlefinance.com"><button  className={classes.homepage_button}>Start investing</button></a> */}
 
-                    <a href="/product?name=reif">
-                    <p  className={classes.tabs_button}>Get access to loans 
+                    <Link  as={Link} href="/investment">
+                    <p style={{cursor:"pointer"}}   className={classes.tabs_button}>Get access to loans 
                     <img src="/images/homepage/green-right-arrow.svg" style={{paddingLeft:"15px", fontSize:"20px"}}/>
                     </p>
-                    </a>
+                    </Link>
                     
                     </p>   
         </div> 

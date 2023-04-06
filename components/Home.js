@@ -10,6 +10,7 @@ import Growth from "./Growth";
 import Testimonials from "./Testimonials";
 import Faqexcerpt from "./Faqexcerpt";
 import ContactExcerpt from "./Contactexcerpt";
+import Link from 'next/link';
 import { motion } from "framer-motion";
 
 const content = {
@@ -86,7 +87,7 @@ const Home = () => {
                     <div className="col-md-6">
                     <h4 className={classes.homepage_title}>Connect Your <span className={classes.make_red}>Wealth</span> <br/>Circles With Circle Finance</h4>
                     <h6 className={classes.homepage_subtitle}>Our innovative financial platform is more than just a service—it's a community of like-minded individuals who want to see their money grow and their financial dreams come true!</h6>
-                    <a href="https://app.circlefinance.com" target="_blank"> <button  className={classes.homepage_button}>Sign up now</button></a>                   
+                    <a  href="https://app.circlefinance.com" target="_blank"> <button  className={classes.homepage_button}>Sign up now</button></a>                   
                     <img className={`downarrow ${classes.homepage_scroll}`}  src="/images/homepage/scroll.svg" alt="" />
                     </div>
                     <div className="col-md-1">                
@@ -127,7 +128,12 @@ const Home = () => {
                      through short-term savings, fixed investments, and partnerships. Our platform is designed to help you grow your wealth and achieve your financial 
                      dreams in the most efficient and effective way possible.
                         </p>
-                    <p  className={classes.about_button}>Learn more <img src="/images/homepage/green-right-arrow.svg" style={{paddingLeft:"15px", fontSize:"20px"}}/></p>
+                    
+                    <Link  as={Link} href="/investment">
+                    <p style={{cursor:"pointer"}} className={classes.about_button}>Learn more
+                     <img src="/images/homepage/green-right-arrow.svg" style={{paddingLeft:"15px", fontSize:"20px"}}/>
+                     </p>
+                     </Link>
                 
                     </div>
 
@@ -148,11 +154,11 @@ const Home = () => {
                         <div className={classes.tabsbuttons}>
                     <a target="_blank" href="https://app.circlefinance.com"><button  className={classes.homepage_button}>Get started now</button></a>
 
-                    <a href="/product?name=reif">
-                    <p  className={classes.tabs_button}>Learn more 
+                    <Link  as={Link} href="/investment">
+                    <p style={{cursor:"pointer"}}  className={classes.tabs_button}>Learn more 
                     <img src="/images/homepage/green-right-arrow.svg" style={{paddingLeft:"15px", fontSize:"20px"}}/>
                     </p>
-                    </a>
+                    </Link>
                     
                     </div>   
                </div>
@@ -238,8 +244,10 @@ const Home = () => {
                <h6 className={classes.homepage_subtitle}>
                At Circle Finance, we're committed to staying on the cutting edge of financial technology. We believe that innovation is key to providing our clients with the best possible investment experience, which is why we're always exploring new ways to enhance our platform and improve our services. Whether it's through the latest financial tools and resources or the development of new investment products, we're dedicated to helping you achieve your financial goals in the most innovative and efficient way possible.
                 </h6>
-                <p className={classes.tabs_learn_more}>Learn more <img src="/images/homepage/green-right-arrow.svg" style={{paddingLeft:"15px", fontSize:"20px"}}/></p>
-
+{/* 
+                <Link  as={Link} href="/investment">
+                <p  style={{cursor:"pointer"}}  className={classes.tabs_learn_more}>Learn more <img src="/images/homepage/green-right-arrow.svg" style={{paddingLeft:"15px", fontSize:"20px"}}/></p>
+                </Link> */}
            
                </div>
 

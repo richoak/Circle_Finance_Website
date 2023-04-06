@@ -12,7 +12,6 @@ const query = router.query
 const netearningsRef = useRef();
 const loanamountRef = useRef();
 const loandurationRef = useRef();
-
 const [ loanRepayment, setLoanRepayment ] = useState(0)
 const [ maxAmount, setMaxAmount ] = useState(0)
 
@@ -67,8 +66,8 @@ class Tabs extends React.Component{
     const net = netearningsRef.current.value;
     const duration = loandurationRef.current.value;
     const amount= loanamountRef.current.value
-    const maxamount = (net * duration * amount).toLocaleString(2)
-    const lramount = (amount * duration).toLocaleString(2)
+    const maxamount = (net * duration * 0.4).toLocaleString(2)
+    const lramount =(net * duration * 0.4).toLocaleString(2)
 
     setLoanRepayment(lramount)
     setMaxAmount(maxamount)

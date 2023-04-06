@@ -23,9 +23,12 @@ const ContactExcerpt = () => {
                <h1 className={classes.steps_title}>Ready to connect <br/> with us? </h1>
                {/* <h2 className={classes.steps_subtitle}>Building wealth shouldn't be nerve racking. With Oak Finance.</h2> */}
                 <h6 className={classes.steps_subtitle_trust}>Hi, Welcome to Circle Finance Platform. <br/>How may i help you today?</h6>
+                
+                <Link  as={Link} href="/contact">
                 <p className={classes.cus_sup_button}>
                 <button  className={classes.about_button}>Customer  support <img src="/images/homepage/whitearrow.svg" style={{paddingLeft:"15px", fontSize:"20px"}}/></button>
                 </p>
+                </Link>
 
                </div>
 

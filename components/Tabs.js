@@ -1,5 +1,6 @@
 import React, { useState } from "react"
 import classes from "./Home.module.css"
+import Link from 'next/link';
 // import Sonnet from '../../components/Sonnet';
 
 
@@ -126,11 +127,11 @@ Short Term Loans
                     <div className={classes.tabsbuttons}>
                     <a target="_blank" href="https://app.circlefinance.com"><button  className={classes.homepage_button}>Start investing</button></a>
 
-                    <a href="/product?name=reif">
-                    <p  className={classes.tabs_button}>Learn more 
+                    <Link  as={Link} href="/investment">
+                    <p style={{cursor:"pointer"}}  className={classes.tabs_button}>Learn more 
                     <img src="/images/homepage/green-right-arrow.svg" style={{paddingLeft:"15px", fontSize:"20px"}}/>
                     </p>
-                    </a>
+                    </Link>
                     
                     </div>
                  
@@ -158,11 +159,11 @@ Short Term Loans
                           <p className={classes.tabsbuttons}>
                     <a target="_blank" href="https://app.circlefinance.com"><button  className={classes.homepage_button}>Start investing</button></a>
 
-                    <a href="/product?name=reif">
-                    <p  className={classes.tabs_button}>Learn more 
+                    <Link  as={Link} href="/investment">
+                    <p  style={{cursor:"pointer"}}  className={classes.tabs_button}>Learn more 
                     <img src="/images/homepage/green-right-arrow.svg" style={{paddingLeft:"15px", fontSize:"20px"}}/>
                     </p>
-                    </a>
+                    </Link>
                     
                     </p>                 
                     </div>
@@ -188,11 +189,11 @@ Short Term Loans
                      <p className={classes.tabsbuttons}>
                     <a target="_blank" href="https://app.circlefinance.com"><button  className={classes.homepage_button}>Start investing</button></a>
 
-                    <a href="/product?name=reif">
-                    <p  className={classes.tabs_button}>Learn more 
+                    <Link  as={Link} href="/investment">
+                    <p style={{cursor:"pointer"}}  className={classes.tabs_button}>Learn more 
                     <img src="/images/homepage/green-right-arrow.svg" style={{paddingLeft:"15px", fontSize:"20px"}}/>
                     </p>
-                    </a>
+                    </Link>
                     
                     </p>
                                         </div>
@@ -218,11 +219,11 @@ Short Term Loans
                     <p className={classes.tabsbuttons}>
                     <a target="_blank" href="https://app.circlefinance.com"><button  className={classes.homepage_button}>Start investing</button></a>
 
-                    <a href="/product?name=reif">
-                    <p  className={classes.tabs_button}>Learn more 
+                    <Link  as={Link} href="/investment">
+                    <p style={{cursor:"pointer"}}  className={classes.tabs_button}>Learn more 
                     <img src="/images/homepage/green-right-arrow.svg" style={{paddingLeft:"15px", fontSize:"20px"}}/>
                     </p>
-                    </a>
+                    </Link>
                     
                     </p>               
                     </div>
