@@ -1,20 +1,22 @@
 import React, {Fragment} from "react"
 import Head from "next/head"
-import Home from "../components/Home"
+import Investment from "../components/Investment"
 
-const HomePage = () => {
+
+
+const InvestmentPage = () => {
   return (
     <Fragment>
     <Head>
-    <title>Home | Circle Finance </title>
+    <title>Investment | Oak Finance </title>
     <meta 
     name="description" 
     content=""/>  
     </Head>  
-    <Home/>
+    <Investment/>
 </Fragment>
    
   )
 }
 
-export default HomePage 
+export default InvestmentPage 

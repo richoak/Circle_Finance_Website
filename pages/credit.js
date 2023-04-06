@@ -1,21 +1,21 @@
 import React, {Fragment} from "react"
 import Head from "next/head"
-import Product from "../components/Product"
+import Credit from "../components/Credit"
 
 
-const ProductPage = () => {
+const CreditPage = () => {
   return (
     <Fragment>
     <Head>
-    <title>Product | Oak Finance </title>
+    <title>Credit | Oak Finance </title>
     <meta 
     name="description" 
     content=""/>  
     </Head>  
-    <Product/>
+    <Credit/>
 </Fragment>
    
   )
 }
 
-export default ProductPage 
+export default CreditPage 

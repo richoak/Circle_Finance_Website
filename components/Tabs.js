@@ -54,26 +54,26 @@ const handleLimited = () => {
   return (
     <div className="container">
 <div className={`col-md-12 ${classes.grow_wealth_box}`}>
-<p className={`${classes.grow_wealth_title} ${classes.desktoponly}`}>Our wealth-building strategy is <br/>based on diversification. </p>
-<p className={`${classes.grow_wealth_title} ${classes.mobileonly}`}>Our wealth-building strategy is based on diversification. </p>
+<p className={`${classes.grow_wealth_title} ${classes.desktoponly}`}>Our products: empowering you to build wealth </p>
+<p className={`${classes.grow_wealth_title} ${classes.mobileonly}`}>Our products: empowering you to build wealth. </p>
 
-<h6 className={classes.grow_wealth_subtitle}>We offer a wide range of alternative investment options to our clients, to<br/>  ensure a balanced and well-rounded portfolio.</h6>
+<h6 className={classes.grow_wealth_subtitle}>
+At Circle Finance, we're committed to helping you build wealth and achieve your financial goals.<br/>
+That's why we offer a range of financial products designed to help you grow your wealth,
+ manage <br/>your finances, and achieve financial stability.
+    </h6>
 <div>
 
 <div className={classes.tabsbox}>
 
 <p className={classes.homepage_buttonp}>
-
-{/* <div className="testarrow"> */}
-    <img className="rightarrow" src="/images/homepage/animated_arrow.svg" alt="" />
-
-    {/* </div> */}
+    <img className={classes.rightarrow} src="/images/homepage/animated_arrow.svg" alt="" />
 <button onClick={handleReif} className={`${classes.firsttabbuttons} ${classes.tabbuttons}`}
     style={{
         color: reif ? '#DD3636' : '#6B7487',
         backgroundColor: reif ? '#FCF7F7' : '#F1F2F4'
         }}>
-    REIF
+    A A Investments
 </button>
 
 <button onClick={handlePplus}className={classes.tabbuttons}
@@ -81,7 +81,7 @@ const handleLimited = () => {
     color: pplus ? '#DD3636' : '#6B7487',
     backgroundColor: pplus ? '#FCF7F7' : '#F1F2F4'
     }}>
-Premium Plus
+Short Term Loans
 </button>
 
 <button onClick={handlePremium}className={classes.tabbuttons}
@@ -89,7 +89,7 @@ Premium Plus
     color: premium ? '#DD3636' : '#6B7487',
     backgroundColor: premium ? '#FCF7F7' : '#F1F2F4'
     }}
->Premium
+>Fixed Investment Products
 </button>
 
 <button onClick={handlePlatinum}className={classes.tabbuttons}
@@ -97,17 +97,8 @@ Premium Plus
     color: platinum ? '#DD3636' : '#6B7487',
     backgroundColor: platinum ? '#FCF7F7' : '#F1F2F4'
     }}
->Platinum Investment
+>P.C.I Opportunities
 </button>
-
-<button onClick={handleLimited}className={classes.tabbuttons}
-   style={{
-    color: limited ? '#DD3636' : '#6B7487',
-    backgroundColor: limited ? '#FCF7F7' : '#F1F2F4'
-    }}
->Limited Partnership
-</button>
-
 </p>
 
 
@@ -128,15 +119,20 @@ Premium Plus
                     </div>
 
                     <div className="col-md-6">
-                    <h1 className={classes.tab_title}>Real Estate Investment Fund</h1>
+                    <h1 className={classes.tab_title}>Alternative Asset Investments</h1>
                     <h6 className={classes.tab_subtitle}>
-                    The Oak Real Estate Investment Fund is a unique investment opportunity that allows individuals to invest in a diversified portfolio of real estate assets. The fund is designed for investors who do not have the deep pockets to buy off properties or build from the ground up, but wish to own prime real estate. This means that you don't need to have a large amount of money to get started, and you can share in the ownership of valuable real estate assets.
+                    Our alternative asset investment products allow you to diversify your investment portfolio and reduce your overall risk. From credit investments to real estate crowdfunding opportunities, we offer a range of alternative asset investment products to suit your needs and investment goals. With our innovative investment platform, you can easily access alternative investment opportunities and start building wealth today.
                         </h6>
-                    <p className={classes.tabsbuttons}>
-                    <a href="/product?name=reif"><button  className={classes.homepage_button}>Start investing</button></a>
-                    {/* <p  className={classes.tabs_button}>Learn more <img src="/images/homepage/green-right-arrow.svg" style={{paddingLeft:"15px", fontSize:"20px"}}/></p> */}
-                    
+                    <div className={classes.tabsbuttons}>
+                    <a target="_blank" href="https://app.circlefinance.com"><button  className={classes.homepage_button}>Start investing</button></a>
+
+                    <a href="/product?name=reif">
+                    <p  className={classes.tabs_button}>Learn more 
+                    <img src="/images/homepage/green-right-arrow.svg" style={{paddingLeft:"15px", fontSize:"20px"}}/>
                     </p>
+                    </a>
+                    
+                    </div>
                  
                     </div>
 
@@ -154,13 +150,21 @@ Premium Plus
                     </div>
 
                     <div className="col-md-6">
-                    <h1 className={classes.tab_title}>Premium Plus</h1>
+                    <h1 className={classes.tab_title}>Short-Term Loans</h1>
                     <h6 className={classes.tab_subtitle}>
-                    The Oak Premium Plus is a high-yield investment option that allows investors to invest a larger sum of money at a competitive interest rate. This option is designed for individuals who have a significant amount of idle cash that they want to put to work and potentially increase their long-term earnings.
-Investing in Oak Premium Plus also offers investors the opportunity to diversify their portfolio and potentially mitigate risk by spreading their investment across multiple assets. 
+                    Our fixed investment products offer a secure and reliable way to grow your wealth over time. With our competitive interest rates and flexible terms, you can earn a steady return on your investment while maintaining the flexibility you need to manage your finances. Whether you're looking to save for a specific goal or build long-term wealth, our fixed investment products are designed to help you achieve your financial goals.
                           
                           </h6>
-                    <p className={classes.tabs_learn_more}>Learn more <img src="/images/homepage/green-right-arrow.svg" style={{paddingLeft:"15px", fontSize:"20px"}}/></p>
+                          <p className={classes.tabsbuttons}>
+                    <a target="_blank" href="https://app.circlefinance.com"><button  className={classes.homepage_button}>Start investing</button></a>
+
+                    <a href="/product?name=reif">
+                    <p  className={classes.tabs_button}>Learn more 
+                    <img src="/images/homepage/green-right-arrow.svg" style={{paddingLeft:"15px", fontSize:"20px"}}/>
+                    </p>
+                    </a>
+                    
+                    </p>                 
                     </div>
 
                   
@@ -177,14 +181,21 @@ Investing in Oak Premium Plus also offers investors the opportunity to diversify
                     </div>
 
                     <div className="col-md-6">
-                    <h1 className={classes.tab_title}>Premium</h1>
+                    <h1 className={classes.tab_title}>Fixed Investment Products</h1>
                     <h6 className={classes.tab_subtitle}>
-                    The Oak Premium Investment Plan is a savings plan that is tailored for individuals who earn a salary and
-                     want to consistently invest a specific amount of money each month towards a specific financial goal.
-                     This means that at the end of the first year, an additional 12% of the total investment will be added to the overall amount saved. This plan is an excellent option for those who want to save money consistently over time and earn a higher return on their investment.
+                    At Circle Finance, we believe in the power of collaboration to help you achieve your investment goals. That's why we offer partnership and collaborative investment opportunities to help you leverage the knowledge and expertise of other investors and financial professionals. With our collaborative investment opportunities, you can access a wider range of investment options and benefit from the collective wisdom of the investment community.
                      </h6>
-                    <p className={classes.tabs_learn_more}>Learn more <img src="/images/homepage/green-right-arrow.svg" style={{paddingLeft:"15px", fontSize:"20px"}}/></p>
-                    </div>
+                     <p className={classes.tabsbuttons}>
+                    <a target="_blank" href="https://app.circlefinance.com"><button  className={classes.homepage_button}>Start investing</button></a>
+
+                    <a href="/product?name=reif">
+                    <p  className={classes.tabs_button}>Learn more 
+                    <img src="/images/homepage/green-right-arrow.svg" style={{paddingLeft:"15px", fontSize:"20px"}}/>
+                    </p>
+                    </a>
+                    
+                    </p>
+                                        </div>
 
                   
                 </div>
@@ -200,11 +211,20 @@ Investing in Oak Premium Plus also offers investors the opportunity to diversify
                     </div>
 
                     <div className="col-md-6">
-                    <h1 className={classes.tab_title}>Platinum</h1>
+                    <h1 className={classes.tab_title}>Partnership and Collaborative Investment Opportunities</h1>
                     <h6 className={classes.tab_subtitle}>
-                    The Oak Platinum Investment Plan is a high-value investment option designed for individuals with large sums of money starting at 10 million naira and above. This plan is tailored for individuals who are looking to invest in a safe and profitable plan and want to get good returns on their investment.
+                    At Circle Finance, we believe in the power of collaboration to help you achieve your investment goals. That's why we offer partnership and collaborative investment opportunities to help you leverage the knowledge and expertise of other investors and financial professionals. With our collaborative investment opportunities, you can access a wider range of investment options and benefit from the collective wisdom of the investment community.
                     </h6>
-                    <p className={classes.tabs_learn_more}>Learn more <img src="/images/homepage/green-right-arrow.svg" style={{paddingLeft:"15px", fontSize:"20px"}}/></p>
+                    <p className={classes.tabsbuttons}>
+                    <a target="_blank" href="https://app.circlefinance.com"><button  className={classes.homepage_button}>Start investing</button></a>
+
+                    <a href="/product?name=reif">
+                    <p  className={classes.tabs_button}>Learn more 
+                    <img src="/images/homepage/green-right-arrow.svg" style={{paddingLeft:"15px", fontSize:"20px"}}/>
+                    </p>
+                    </a>
+                    
+                    </p>               
                     </div>
 
                   
@@ -235,7 +255,7 @@ Investing in Oak Premium Plus also offers investors the opportunity to diversify
     </div>
 </div>
 </div>
-<hr/>
+{/* <hr/> */}
 </div>
   );
 }

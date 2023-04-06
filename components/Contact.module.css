@@ -58,6 +58,11 @@ color: #2F6D67;
     padding-left:20px
 }
 
+.footersocialicons1{
+    float:left;
+    padding-left:0px
+}
+
 .contact2boxes{
     background-color: #FFFEFA
 }
@@ -150,4 +155,14 @@ color: #2F6D67;
     .call{
         margin-top:40px
     }
+
+
+.growth_steps{
+    margin-top:150px;
+       height: 830px; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-image: url(/images/homepage/growth_bg.svg);
+}
 }

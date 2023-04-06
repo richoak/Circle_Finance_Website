@@ -112,4 +112,14 @@
     .faqhr{
         display:none
     }
+
+
+.growth_steps{
+    margin-top:150px;
+       height: 830px; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-image: url(/images/homepage/growth_bg.svg);
+}
 }

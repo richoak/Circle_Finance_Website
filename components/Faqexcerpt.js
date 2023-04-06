@@ -12,8 +12,8 @@ const Faqexcerpt = () => {
       <>
       <hr/>
       <div className={classes.faq}>
-            <h1 className={classes.faq_title}>Frequently Asked Questions</h1>
-            <p className={classes.faq_subtitle}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam, dapibus mattis vel feugiat erat tortor eleifend..</p>
+            <h1 className={classes.faq_title}>Frequently asked questions</h1>
+            {/* <p className={classes.faq_subtitle}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam, dapibus mattis vel feugiat erat tortor eleifend..</p> */}
 <div className="container">
     <div className="row">
     <div className="col-md-6">

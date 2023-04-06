@@ -13,6 +13,11 @@ const Contact = () => {
     return (
       <>
           <Header className={classes.header}/>
+          <div
+            data-aos="fade-up"
+            data-aos-delay="100"
+            data-aos-duration="2000"
+            >
       <div className={classes.contact2boxes}>
       <div>
         <img src="/images/homepage/contct_header.svg" alt="" />
@@ -35,29 +40,33 @@ const Contact = () => {
                 <div className="col-md-3">
                   <img src="/images/homepage/map.svg" alt="" />
                 <p className={classes.contact_secondbox_title}>Locate us at</p>
-                 <p className={classes.contact_secondbox_subtitle}>Plot 1072 Grand Pela Hotel <br/> Street, Durumi Area 1. Abuja</p>
+                 <p className={classes.contact_secondbox_subtitle} >
+                  <a target="_blank" href="https://goo.gl/maps/RKp9TRK8tqRFxUxM6"  style={{textDecoration:"none", color:"#666666"}}>
+                  Plot 1072 Grand Pela Hotel <br/> Street, Durumi Area 1. Abuja
+                  </a>
+                  </p>
                 </div>
                 <div className={`col-md-3 ${classes.call}`}>
                 <img src="/images/homepage/phoneicon.svg" alt="" />
                 <p className={classes.contact_secondbox_title}>Call us on</p>
-                 <p className={classes.contact_secondbox_subtitle}><a style={{color:"#687181"}}  href="tel:234 123 456 7890">+23490909090</a></p>
-                 <p className={classes.contact_secondbox_subtitle}><a style={{color:"#687181"}}  href="tel:234 123 456 7890">+23490909090</a></p>
+                 <p className={classes.contact_secondbox_subtitle}><a style={{color:"#687181"}}  href="tel:2349071113219">+2349071113219</a></p>
+                 {/* <p className={classes.contact_secondbox_subtitle}><a style={{color:"#687181"}}  href="tel:234 123 456 7890">+23490909090</a></p> */}
                 </div>  
 
                 <div className={`col-md-3 ${classes.call}`}>
                 <img src="/images/homepage/mail.svg" alt="" />
                 <p className={classes.contact_secondbox_title}>Send us an email</p>
-                 <p className={` ${classes.contactemail}`}><a style={{color:"#2F6D67"}} href="mailto:hello@oakfinance.com">hello@oakfinance.com</a></p>
+                 <p className={` ${classes.contactemail}`}><a style={{color:"#2F6D67"}} href="mailto:hello@circlefinance.com">circle@oakfinance.com</a></p>
                     </div>  
 
                     <div className={`col-md-3 ${classes.call}`}>
                     <img src="/images/homepage/chat.svg" alt="" />
                     <p className={classes.contact_secondbox_title}>Connect with us</p>
                     <div>
-          <p  className={classes.footersocialicons}><a  href=""><img src="/images/homepage/facebook.svg"/></a></p>
+          {/* <p  className={classes.footersocialicons1}><a  href=""><img src="/images/homepage/facebook.svg"/></a></p>
           <p  className={classes.footersocialicons}><a  href=""><img src="/images/homepage/youtube.svg"/></a></p>
           <p  className={classes.footersocialicons}><a  href=""><img src="/images/homepage/linkedin.svg"/></a></p>
-          <p  className={classes.footersocialicons}><a  href=""><img src="/images/homepage/instagram.svg"/></a></p>
+          <p  className={classes.footersocialicons}><a  href=""><img src="/images/homepage/instagram.svg"/></a></p> */}
 
           </div>
                     </div>  
@@ -65,8 +74,14 @@ const Contact = () => {
        </div>
        </div>
        </div>
+       </div>
 
 
+       <div
+            data-aos="fade-up"
+            data-aos-delay="100"
+            data-aos-duration="2500"
+            >
        <div className="container">
        <div className={classes.contact_thirdbox}>
        <div className="row">   
@@ -103,6 +118,7 @@ const Contact = () => {
     </div>
 
 
+      </div>
       </div>
   
       <div className={classes.growth_steps}>

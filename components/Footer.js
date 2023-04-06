@@ -11,12 +11,13 @@ const Footer = () => {
       <div className={`container ${classes.navigationbar}`}>
       <div  className={`${classes.navigationmenu}`}>
         <div className={classes.footerlogo}>
+
         <Link href="/" activeClassName="is-active" >
         <a className="navbar-brand" href="/">
         <img width="" height="40" src="/images/homepage/logo.svg"/>
-
           </a>
-              </Link>
+        </Link>
+        
         </div>
     
 
@@ -70,8 +71,6 @@ const Footer = () => {
             <p><a className={classes.footersubtitle} href="">About</a></p>
             <p><a className={classes.footersubtitle} href="">Company</a></p>
         </div>
-</div>
-     
 
         <div className="col-md-2 col-6">
         <p className={classes.footertitle}>External Links</p>
@@ -82,6 +81,10 @@ const Footer = () => {
             <p><a className={classes.footersubtitle} href="">About</a></p>
             <p><a className={classes.footersubtitle} href="">Company</a></p> */}
         </div>
+</div>
+     
+
+      
 
 
   

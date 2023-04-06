@@ -16,8 +16,11 @@ const Faq = () => {
          <Header className={classes.header}/>
       <div className={classes.faq}>
             <h1 className={classes.faq_title}>Frequently Asked Questions</h1>
-            <p className={classes.faq_subtitle}>
+            <p className={`${classes.faq_subtitle} ${classes.desktoponly}`}>
             At Oak Finance, we are dedicated to offering the best financial guidance and investment <br/>opportunities to our clients. We understand that every individual has different needs <br/>and goals when it comes
+                </p>
+                <p className={`${classes.faq_subtitle} ${classes.mobileonly}`}>
+            At Oak Finance, we are dedicated to offering the best financial guidance and investment opportunities to our clients. We understand that every individual has different needs and goals when it comes
                 </p>
 <div className="container">
 <h1 className={classes.faq_title2}>Products</h1>

@@ -36,3 +36,14 @@
 .make_red{
     color:#DD3636
 }
+
+@media (min-width:375px) and (max-width:767px) {
+    .steps_title{
+        padding-top:0px;
+        font-family: 'Hanken Grotesk', sans-serif;
+        font-weight: 600;
+        font-size:40px;
+        line-height: 57.6px;
+        color:#FFF
+    }
+}

@@ -16,13 +16,14 @@ const Growth = () => {
         
                
            <div className={`col-md-6 ${classes.investorsimage}`}>
-                   <p style={{textAlign:"center"}} ><img className="img-fluid" src="/images/homepage/mockupphone.svg" alt="" /></p>
+           <h1 className={classes.steps_title}>Join Circle Finance Today </h1>
+                <h6 className={classes.steps_subtitle_trust}>Ready to start building your financial future with Circle Finance? Join us<br/> today and discover a world of financial possibilities.</h6>
+              
                </div>
 
-               <div className="col-md-6">
-               <h1 className={classes.steps_title}>Start growing your <br/> wealth now </h1>
-               {/* <h2 className={classes.steps_subtitle}>Building wealth shouldn't be nerve racking. With Oak Finance.</h2> */}
-                <h6 className={classes.steps_subtitle_trust}>Building wealth shouldn't be nerve racking. With <br/>Oak Finance.</h6>
+               <div className={`col-md-6 ${classes.investorsimage}`}>
+     
+                <p style={{textAlign:"center"}} ><img className="img-fluid" src="/images/homepage/mockupphone.svg" alt="" /></p>
 
                </div>
 

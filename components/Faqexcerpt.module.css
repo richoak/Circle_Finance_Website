@@ -4,7 +4,8 @@
     font-family: 'Hanken Grotesk', sans-serif;
     font-weight:700;
     font-size:48px;
-    line-height:57.6px
+    line-height:57.6px;
+    padding-bottom: 65px
 }
 
 .faq_subtitle{
@@ -36,7 +37,7 @@
 @media (min-width:375px) and (max-width:767px) {
 .faq_title{
     text-align:center;
-    padding-top: 75px;
+    padding-top:55px;
     font-family: 'Hanken Grotesk', sans-serif;
     font-weight:700;
     font-size:32px;

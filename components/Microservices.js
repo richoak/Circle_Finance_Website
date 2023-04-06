@@ -16,7 +16,11 @@ const Microservices = () => {
 
     <Header className={classes.header}/>
 
-    {/* FIRST BOX */}
+    <div
+            data-aos="fade-up"
+            data-aos-delay="100"
+            data-aos-duration="2000"
+            >
     <div className={classes.about_first_box}>
     <div className="container">
     <div className="row">
@@ -35,10 +39,15 @@ const Microservices = () => {
     </div>
 </div>
 </div>
-    {/* FIRST BOX */}
+</div>
+ 
 
 
-    {/* SECOND BOX */}
+<div
+            data-aos="fade-up"
+            data-aos-delay="100"
+            data-aos-duration="2500"
+            >
     <div className={classes.about_second_box}>
     <div className="container">
     <div className="row">
@@ -52,13 +61,18 @@ const Microservices = () => {
       
         </div> 
     </div>
-    {/* <hr className={classes.secondboxhr}/> */}
+
 </div>
 </div>
-    {/* SECOND BOX */}
+</div>
 
 
-    {/* THIRD BOX */}
+
+<div
+            data-aos="fade-up"
+            data-aos-delay="100"
+            data-aos-duration="3000"
+            >
     <div className={classes.about_second_box}>
     <div className="container">
     <div className="row">
@@ -76,9 +90,14 @@ const Microservices = () => {
     {/* <hr className={classes.secondboxhr}/> */}
 </div>
 </div>
-    {/* THIRD BOX */}
+   </div>
 
 
+   <div
+            data-aos="fade-up"
+            data-aos-delay="100"
+            data-aos-duration="3500"
+            >
 <div className={classes.about_second_box}>
     <div className="container">
     <div className="row">
@@ -95,12 +114,21 @@ const Microservices = () => {
     <hr className={classes.secondboxhr}/>
 </div>
 </div>
+</div>
 
+<div
+            data-aos="fade-up"
+            data-aos-delay="100"
+            data-aos-duration="4000"
+            >
 <div className={classes.contact_secondbox}>
     <div className="container">
     <p className={classes.contact_firstbox_title}>Oak Finance features</p>
-    <p className={classes.contact_firstbox_subtitle}>
-    We understand that managing your finances can be a daunting task.<br/> That's why we offer a range of financial services designed to make it 
+    <p className={`${classes.contact_firstbox_subtitle} ${classes.desktoponly}`}>
+    We offer a range of financial services to make managing finances easy and help reach<br/> financial goals. Whether it's investing, retirement planning, or budgeting, we have the tools <br/> and resources to take control of your financial future.
+                        </p>
+                        <p className={`${classes.contact_firstbox_subtitle} ${classes.mobileonly}`}>
+    We offer a range of financial services to make managing finances easy and help reach financial goals. Whether it's investing, retirement planning, or budgeting, we have the tools  and resources to take control of your financial future.
                         </p>
     <div className="row">   
 
@@ -133,8 +161,10 @@ const Microservices = () => {
     </div>
       
        </div>
+       </div>
 
 <>
+
 <div className={classes.growth_steps}>
 <Growth/>
 </div>

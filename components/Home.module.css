@@ -1,37 +1,61 @@
+/* .homepage{ */
+    /* height: 800px;  */
+/* } */
 
 
-.homepage{
-    /* height: 800px; 
+.homepagebg{
+    /* background-image: url("/images/homepage/gradient.svg"); */
     background-position: center;
     background-repeat: no-repeat; 
     background-size: cover;
-    background-image: url("/images/landingpage/background.svg"); */
+   
 }
 
-.box{
+/* .box{ */
     /* padding-top:160px; */
-    padding-bottom:50px;
-}
+    /* padding-bottom:50px; */
+/* } */
 
+.about_first_box {
+    /* background-image: url("/images/homepage/gradient.svg"); */
+}
 
 .homepage_title{
     color: #323740;
     font-family: 'Hanken Grotesk', sans-serif;
-    font-size:56px;
-    font-weight:800;
-    line-height:67.2px;
+    font-size:48px;
+    font-weight:700;
+    line-height:57.6px;
       padding-top:160px;
+}
+
+.rightarrow {
+    position: relative;
+    animation: myfirst 5s 30;
+    animation-direction: alternate;
+    animation-play-state: running;
+    
+  }
+
+.homepage_image{
+    padding-top:50px
+}
+
+.commitmentbox{
+    background: #FFFDF7;
+    padding-top:10px;
+    padding-bottom:70px
 }
 
 .homepage_subtitle{
    
     margin-top:20px;
     margin-bottom:32px;
-    color: #646B78;
+    color: #687181;
     font-size:18px;
     font-weight:300;;
     font-family: 'Hanken Grotesk', sans-serif;
-    line-height: 30px;
+    line-height: 27px;
     text-align:justify
    
 }
@@ -46,7 +70,7 @@
 
 .homepage_scroll{
     float:right;
-    margin-top:160px;
+    margin-top:100px;
     cursor:pointer;
     border: 2px solid #A7AEBA;
     border-radius: 25px;
@@ -111,12 +135,22 @@
     padding-top:70px;
     font-family: 'Hanken Grotesk', sans-serif;
     font-weight: 700;
-    font-size:48px;
-    line-height: 57.6px;
+    font-size:40px;
+    line-height: 48px;
+    color:#323740
+}
+
+.why_trust_us_title{
+    padding-top:0px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 700;
+    font-size:40px;
+    line-height: 48px;
+    color:#323740
 }
 
 .microservices_title{
-    padding-top:70px;
+    /* padding-top:70px; */
     font-family: 'Hanken Grotesk', sans-serif;
     font-weight: 700;
     font-size:40px;
@@ -132,8 +166,8 @@
     font-style:normal;
     font-weight:600;
     font-family: 'Hanken Grotesk', sans-serif;
-    text-decoration:underline;
-    text-underline-offset: 2px;
+    /* text-decoration:underline;
+    text-underline-offset: 2px; */
     display: inline-block;
     /* margin-left:28px */
 }
@@ -145,8 +179,8 @@
     font-style:normal;
     font-weight:600;
     font-family: 'Hanken Grotesk', sans-serif;
-    text-decoration:underline;
-    text-underline-offset: 2px;
+    /* text-decoration:underline;
+    text-underline-offset: 2px; */
     display: inline-block;
     margin-left:28px
 }
@@ -171,7 +205,7 @@
     line-height: 28.8px;
 }
 
-.trust_inner_box{
+.trust_inner_box2{
     margin-top:40px
 }
 
@@ -195,18 +229,18 @@
     text-align:center;
     padding-top:140px;
     font-family: 'Hanken Grotesk', sans-serif;
-    font-weight: 600;
-    font-size:48px;
+    font-weight: 700;
+    font-size:40px;
     line-height: 48px;
 }
 
 .grow_wealth_subtitle{
     text-align:center;
     margin-top:20px;
-    margin-bottom:32px;
+    margin-bottom:77px;
     color: #646B78;
     font-size:18px;
-    font-weight:300;;
+    font-weight:400;;
     font-family: 'Hanken Grotesk', sans-serif;
     line-height: 27px;
 }
@@ -237,11 +271,11 @@
 
 
 .tab_content{
-    margin-top: 122px
+    margin-top: 64px
 }
 
 .tab_title{
-    padding-top:40px;
+    /* padding-top:40px; */
     font-family: 'Hanken Grotesk', sans-serif;
     font-weight: 700;
     font-size:32px;
@@ -269,15 +303,30 @@
 
 .microserviceslist{
     font-family: 'Hanken Grotesk', sans-serif;
-    font-weight: 400;
+    font-weight: 700;
     font-size:18px;
     line-height: 27px;
-    color:#404A5C;
-    padding-left:20px
+    color:#434E61;
+    padding-left:20px;
+    margin-top:80px
 }
 
-.microservicesimage{
+.microserviceslist1{
+    margin-top:80px
+}
+
+.microserviceslist2{
     margin-top:50px
+}
+
+
+
+.microservicesimage{
+    margin-top:-50px
+}
+
+.microserviceslist2{
+    margin-top:20px
 }
 
 .home_steps{
@@ -404,6 +453,10 @@
   }
 
    @media (min-width:375px) and (max-width:767px) {
+
+    .firsttabbuttons{
+        margin-left:10px
+    }
     .desktoponly{
         display:none
     }
@@ -412,7 +465,22 @@
         display:block
     }
 
+    .grow_wealth_subtitle{
+        text-align:justify
+    }
+
+    .rightarrow {
+        display:none
+        
+      }
+
     .about_us_title{
+        font-size:32px;
+        line-height: 38.4px;
+        padding-top:30px;
+    }
+
+    .why_trust_us_title{
         font-size:32px;
         line-height: 38.4px;
         padding-top:30px;
@@ -427,14 +495,14 @@
     }
     
       .homepage_title{
-        font-size:46px;
-        font-weight:800;
-        line-height:57.6px;
+        font-size:35px;
+        font-weight:700;
+        line-height:48px;
          padding-top:60px;
         }
 
         .investorsimage{
-            padding-top:80px;
+            padding-top:50px;
           
         }
 
@@ -447,7 +515,7 @@
         }
 
         .grow_wealth_title{
-            text-align:center;
+            text-align:left;
             padding-top:140px;
             font-family: 'Hanken Grotesk', sans-serif;
             font-weight: 600;
@@ -487,4 +555,18 @@
         .security_steps{
             padding-top:50px;
         }
+
+        .growth_steps{
+            margin-top:100px;
+               height: 830px; 
+            background-position: center;
+            background-repeat: no-repeat; 
+            background-size: cover;
+            background-image: url(/images/homepage/growth_bg.svg);
+        }
+
+        .faq_steps{
+            margin-top:100px;
+        }
+        
    }

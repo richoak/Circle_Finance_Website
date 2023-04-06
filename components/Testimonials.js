@@ -17,20 +17,26 @@ const Testimonials = () => {
                
           
        
-               <div className="col-md-4">
-               <p className={classes.testimonial_title}>Don`t just take<br/> our <span className={classes.make_red}>words </span>for it</p>
-              <p className={classes.testimonial_subtitle}>Office ipsum you must be muted.<br/> Marginalised policy the  thought while by<br/> better barn back.</p>
+               <div className="col-md-12">
+                <div className={classes.desktoponly}>
+                <p className={classes.testimonial_title}>What our  <span className={classes.make_red}>customers </span>have <br/>to say about us</p>
+                </div>
+
+                <div className={classes.mobileonly}>
+                <p className={classes.testimonial_title}>What our  <span className={classes.make_red}>customers </span>have to say about us</p>
+                </div>
+              {/* <p className={classes.testimonial_subtitle}>Office ipsum you must be muted.<br/> Marginalised policy the  thought while by<br/> better barn back.</p> */}
 
                </div>
 
-               <div className="col-md-4">
+
+<div className="col-md-4">
                 <div className={classes.testimonial_box}>
                   <p><img src="/images/homepage/testimonial_1.svg"/> <span className={classes.testify_title} style={{marginLeft:"10px"}}>Mike Okri</span></p>
                   <p className={classes.testify_body}>
                   Oak Finance is the best investment company I've ever worked with. Their team of experts helped me create a diversified portfolio that has consistently delivered solid returns. I trust their advice and appreciate their transparent and professional approach.
                      </p>
                 </div>
-
               </div>
 
                <div className="col-md-4">
@@ -41,12 +47,9 @@ const Testimonials = () => {
                 </div>
 
                </div>
+       
                <div className="col-md-4">
-         
-               </div>
-
-               <div className="col-md-4">
-                <div className={classes.testimonial_second_box}>
+                <div className={classes.testimonial_box}>
                   <p><img src="/images/homepage/testimonial_1.svg"/> <span className={classes.testify_title} style={{marginLeft:"10px"}}>Mike Okri</span></p>
                   <p className={classes.testify_body}>
                   I was hesitant to invest my money, but Oak Finance made the process easy and stress-free. Their team took the time to understand my goals and risk tolerance, and tailored a portfolio that was perfect for me. I've seen great returns and I'm confident in my investment with Oak Finance.                    </p>
@@ -54,14 +57,9 @@ const Testimonials = () => {
 
               </div>
 
-               <div className="col-md-4">
-               <div className={classes.testimonial_second_box}>
-                  <p><img src="/images/homepage/testimonial_1.svg"/> <span className={classes.testify_title} style={{marginLeft:"10px"}}>Mike Okri</span></p>
-                  <p className={classes.testify_body}>
-                  I've been a satisfied client of Oak Finance for over a decade now, and I've consistently seen my investments grow under their expert guidance. Their team is professional, knowledgeable, and always available to answer any questions I may have. I highly recommend Oak Finance to anyone looking to invest their money.                    </p>
-                </div>
+     
 
-               </div>
+
             
 
              

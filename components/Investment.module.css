@@ -6,15 +6,38 @@
 .about_firstbox_image{
     padding-top:80px
 }
+.tabsbuttons{
+    display: inline-block;
+    margin-top:32px
+}
 
-.about_firstbox_title{
+
+.weprovideimage{
+    margin-top:110px
+}
+
+
+.tabs_button {
+
+    color:#2F6D67;
+    font-size: 18px;
+    font-style:normal;
+    font-weight:600;
+    font-family: 'Hanken Grotesk', sans-serif;
+    /* text-decoration:underline;
+    text-underline-offset: 2px; */
+    display: inline-block;
+    margin-left:28px
+}
+
+/* .about_firstbox_title{
     padding-top:131px;
     font-family: 'Hanken Grotesk', sans-serif;
     font-weight: 700;
     font-size:45px;
     line-height: 57.6px;
     text-align:center
-}
+} */
 
 .about_firstbox_subtitle{
     margin-top:20px;
@@ -75,18 +98,28 @@
     color:#DD3636
 }
 
-.about_secondbox_title{
+.about_firstbox_title{
     padding-top:120px;
     font-family: 'Hanken Grotesk', sans-serif;
     font-weight: 700;
     font-size:32px;
-    line-height: 38.4px;
+    line-height: 38px;
+    text-align:left;
+    text-transform:capitalize
+}
+
+.about_secondbox_title{
+    /* padding-top:120px; */
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 700;
+    font-size:18px;
+    line-height: 26.4px;
     /* text-align:center */
 }
 
 .about_secondbox_subtitle{
     margin-top:20px;
-    margin-bottom:42px;
+    /* margin-bottom:42px; */
     color: #646B78;
     font-size:18px;
     font-weight:300;;
@@ -96,8 +129,8 @@
 }
 
 .secondboxhr{
-    margin-top:200px;
-    margin-bottom:80px
+    margin-top:100px;
+    margin-bottom:0px
 }
 
 .about_third_box{
@@ -148,7 +181,6 @@
     font-weight: 600;
     font-size:28px;
     line-height: 33.6px;
-    text-align:center
     
 }
 
@@ -168,8 +200,7 @@
     font-size:18px;
     line-height: 27px;
     color:#6B7487;
-    text-align: justify;
-    /* word-spacing:-1px; */
+    /* text-align: justify; */
 }
 
 .contact_firstbox_subtitle{
@@ -179,8 +210,7 @@
     line-height: 27px;
     color:#6B7487;
     text-align: justify;
-    padding-bottom:60px;
-   text-align:center
+    padding-bottom:60px
 }
 
 .growth_steps{
@@ -197,6 +227,43 @@
     padding-right:30px
 }
 
+.about_second_box{
+    padding-bottom:100px;
+}
+
+.secondbox{
+    background-color: #FFFDF7;
+}
+.productinfo{
+    padding-top:50px
+}
+
+.homepage_button {
+    padding: 10px 28px;
+    background: #2F6D67;
+    border-radius: 4px;
+    color:#FFF;
+    border-color: transparent;
+    font-size: 16px;
+    font-weight:500;
+    font-style:normal;
+    font-family: 'Hanken Grotesk', sans-serif;
+    display: inline-block;
+}
+
+.about_button {
+
+    color:#2F6D67;
+    font-size: 18px;
+    font-style:normal;
+    font-weight:600;
+    font-family: 'Hanken Grotesk', sans-serif;
+    text-decoration:underline;
+    text-underline-offset: 2px;
+    display: inline-block;
+    margin-left:28px
+}
+
 .desktoponly{
     display:block
 }
@@ -204,10 +271,6 @@
 .mobileonly{
     display:none
 }
-
-
-
-
 
 @media (min-width:1025px) and (max-width:1366px) {
  
@@ -227,28 +290,17 @@
     }
 
     .about_firstbox_title{
-        padding-top:131px;
+        padding-top:30px;
         font-family: 'Hanken Grotesk', sans-serif;
         font-weight: 700;
-        font-size:32px;
+        font-size:30px;
         line-height: 38.4px;
-        text-align:center
     }
 
-    .secondboxhr{
-        margin-top:70px;
-        margin-bottom:80px
+    .about_second_box{
+        padding-bottom:0px;
     }
 
-    .featuresbox2{
-        margin-top:30px
-    }
-
-    .about_secondbox_title{
-        padding-top:50px;
-    
-        /* text-align:justify */
-    }
 
 .growth_steps{
     margin-top:150px;
@@ -258,9 +310,4 @@
     background-size: cover;
     background-image: url(/images/homepage/growth_bg.svg);
 }
-
-    /* .contact_firstbox_subtitle{
-     
-       text-align:left
-    } */
 }
