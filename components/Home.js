@@ -78,7 +78,7 @@ const Home = () => {
             data-aos-delay="100"
             data-aos-duration="2000"
             >
-            {/* <div className={classes.hompepagebg}> */}
+    
             <div className={classes.about_first_box}>
             <div className="container">         
             <div className={classes.homepage}>
