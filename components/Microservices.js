@@ -48,18 +48,26 @@ const Microservices = () => {
             data-aos-delay="100"
             data-aos-duration="2500"
             >
-    <div className={classes.about_second_box}>
+    <div className={classes.about_second_box1}>
     <div className="container">
     <div className="row">
+
+    <div className={`col-md-6 ${classes.weprovideimage} ${classes.mobileonly}`}>
+    <p style={{textAlign:"center"}}><img className="img-fluid" src="/images/homepage/images/micro1.svg" alt="" /></p>
+                    </div>
+
         <div className="col-md-6">
         <h1 className={classes.about_secondbox_title}>Business advisory</h1>
         <h6 className={classes.about_secondbox_subtitle}>
         Oak Finance offers a range of business advisory services to assist clients in enhancing their financial literacy. These services include personalized support and guidance tailored to address specific financial issues or questions, as well as educational resources to improve overall understanding of finance. The team at Oak Finance works closely with clients to understand their unique investment preferences and provide customized support accordingly.
              </h6>
         </div> 
-        <div className="col-md-6">
-      
+
+        <div className={`col-md-6  ${classes.weprovideimage}  ${classes.desktoponly}`}>
+        <p style={{textAlign:"center"}}><img className="img-fluid" src="/images/homepage/images/micro1.svg" alt="" /></p>
         </div> 
+
+
     </div>
 
 </div>
@@ -76,9 +84,12 @@ const Microservices = () => {
     <div className={classes.about_second_box}>
     <div className="container">
     <div className="row">
-    <div className="col-md-6">
-      
+    <div className={`col-md-6  ${classes.weprovideimage2}`}>
+    <p style={{textAlign:"center"}}><img className="img-fluid" src="/images/homepage/images/micro2.svg" alt="" /></p>
+
       </div> 
+
+
         <div className="col-md-6">
         <h1 className={classes.about_secondbox_title}>Portfolio management</h1>
         <h6 className={classes.about_secondbox_subtitle}>
@@ -101,13 +112,17 @@ const Microservices = () => {
 <div className={classes.about_second_box}>
     <div className="container">
     <div className="row">
+    <div className={`col-md-6 ${classes.weprovideimage} ${classes.mobileonly}`}>
+    <p style={{textAlign:"center"}}><img className="img-fluid" src="/images/homepage/images/micro1.svg" alt="" /></p>
+                    </div>
+
         <div className="col-md-6">
         <h1 className={classes.about_secondbox_title}>Financial Education</h1>
         <h6 className={classes.about_secondbox_subtitle}>
         Oak Finance team provides various educational resources to help users understand and improve their financial literacy. The former includes personalised support and guidance to help users navigate specific financial challenges or questions they may encounter, based on unique investment preferences.             </h6>
         </div> 
-        <div className="col-md-6">
-      
+       <div className={`col-md-6  ${classes.weprovideimage}  ${classes.desktoponly}`}>
+        <p style={{textAlign:"center"}}><img className="img-fluid" src="/images/homepage/images/micro3.svg" alt="" /></p>
         </div> 
     </div>
   

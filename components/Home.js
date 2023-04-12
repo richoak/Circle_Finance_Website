@@ -88,7 +88,7 @@ const Home = () => {
                     <h4 className={classes.homepage_title}>Connect Your <span className={classes.make_red}>Wealth</span> <br/>Circles With Circle Finance</h4>
                     <h6 className={classes.homepage_subtitle}>Our innovative financial platform is more than just a service—it's a community of like-minded individuals who want to see their money grow and their financial dreams come true!</h6>
                     <a  href="https://app.circlefinance.com" target="_blank"> <button  className={classes.homepage_button}>Sign up now</button></a>                   
-                    <img className={`downarrow ${classes.homepage_scroll}`}  src="/images/homepage/scroll.svg" alt="" />
+                    <img className={`downarrow ${classes.homepage_scroll}`}  src="/images/homepage/images/scroll.svg" alt="" />
                     </div>
                     <div className="col-md-1">                
                     </div>
@@ -117,7 +117,7 @@ const Home = () => {
             <div className={`container ${classes.homepage_about_us}`}>     
                 <div className="row">
                 <div className={`col-md-6 ${classes.weprovideimage} ${classes.desktoponly} `}>
-                        <p style={{textAlign:"center"}}><img className="img-fluid" src="/images/homepage/about.svg" alt="" /></p>
+                        <p style={{textAlign:"center"}}><img className="img-fluid" src="/images/homepage/images/hp1.svg" alt="" /></p>
                     </div>
 
                     <div className="col-md-6">
@@ -138,7 +138,7 @@ const Home = () => {
                     </div>
 
                     <div className={`col-md-6 ${classes.weprovideimage} ${classes.mobileonly} `}>
-                        <p style={{textAlign:"center"}}><img className="img-fluid" src="/images/homepage/about.svg" alt="" /></p>
+                        <p style={{textAlign:"center"}}><img className="img-fluid" src="/images/homepage/images/hp1.svg" alt="" /></p>
                     </div>              
                 </div>
             </div>

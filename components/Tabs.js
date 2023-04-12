@@ -116,7 +116,7 @@ Short Term Loans
             reif && (
                 <div className="row">
                 <div className={`col-md-5 ${classes.mobilephone}`}>
-                        <p style={{textAlign:"center"}}><img className="img-fluid" src="/images/homepage/tab_image.svg" alt="" /></p>
+                        <p style={{textAlign:"center"}}><img className="img-fluid" src="/images/homepage/images/tab1.svg" alt="" /></p>
                     </div>
 
                     <div className="col-md-6">
@@ -147,7 +147,7 @@ Short Term Loans
             pplus && (
                 <div className="row">
                 <div className={`col-md-5 ${classes.mobilephone}`}>
-                        <p style={{textAlign:"center"}}><img className="img-fluid" src="/images/homepage/tab_image.svg" alt="" /></p>
+                        <p style={{textAlign:"center"}}><img className="img-fluid" src="/images/homepage/images/tab2.svg" alt="" /></p>
                     </div>
 
                     <div className="col-md-6">
@@ -178,7 +178,7 @@ Short Term Loans
             premium && (
                 <div className="row">
                 <div className={`col-md-5 ${classes.mobilephone}`}>
-                        <p style={{textAlign:"center"}}><img className="img-fluid" src="/images/homepage/tab_image.svg" alt="" /></p>
+                        <p style={{textAlign:"center"}}><img className="img-fluid" src="/images/homepage/images/tab3.svg" alt="" /></p>
                     </div>
 
                     <div className="col-md-6">
@@ -208,7 +208,7 @@ Short Term Loans
             platinum && (
                 <div className="row">
                 <div className={`col-md-5 ${classes.mobilephone}`}>
-                        <p style={{textAlign:"center"}}><img className="img-fluid" src="/images/homepage/tab_image.svg" alt="" /></p>
+                        <p style={{textAlign:"center"}}><img className="img-fluid" src="/images/homepage/images/tab4.svg" alt="" /></p>
                     </div>
 
                     <div className="col-md-6">

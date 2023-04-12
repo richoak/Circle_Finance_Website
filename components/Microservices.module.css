@@ -7,6 +7,18 @@
     padding-top:80px
 }
 
+.weprovideimage{
+    margin-top:110px
+}
+
+.weprovideimage2{
+    margin-top:50px
+}
+
+.about_second_box{
+    margin-top:100px
+}
+
 .about_firstbox_title{
     padding-top:131px;
     font-family: 'Hanken Grotesk', sans-serif;
@@ -257,6 +269,11 @@
     background-repeat: no-repeat; 
     background-size: cover;
     background-image: url(/images/homepage/growth_bg.svg);
+}
+
+.about_first_box{
+    background: #FFFCF5;
+    padding-bottom:0px
 }
 
     /* .contact_firstbox_subtitle{

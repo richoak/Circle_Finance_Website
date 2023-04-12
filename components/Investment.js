@@ -88,7 +88,7 @@ useEffect(() => {
     <div className="container">
     <div className="row">
     <div className={`col-md-6 ${classes.weprovideimage}`}>
-                        <p style={{textAlign:"center"}}><img className="img-fluid" src="/images/homepage/ellipse.svg" alt="" /></p>
+                        <p style={{textAlign:"center"}}><img className="img-fluid" src="/images/homepage/images/investment1.svg" alt="" /></p>
                     </div>
         <div className="col-md-5">
         <h1 className={classes.about_firstbox_title}>Diversify Your Portfolio<br/> with Alternative<br/> Investments</h1>
@@ -123,7 +123,7 @@ useEffect(() => {
     <div className="container">
     <div className="row">
     <div className={`col-md-6 ${classes.weprovideimage} ${classes.mobileonly}`}>
-                        <p style={{textAlign:"center"}}><img className="img-fluid" src="/images/homepage/ellipse.svg" alt="" /></p>
+                        <p style={{textAlign:"center"}}><img className="img-fluid" src="/images/homepage/images/investment2.svg" alt="" /></p>
                     </div>
         <div className="col-md-5">
         <h1 className={classes.about_firstbox_title}>Short-Term Savings and<br/> Fixed Investments</h1>
@@ -142,7 +142,7 @@ useEffect(() => {
                     </p>   
         </div> 
         <div className={`col-md-6 ${classes.weprovideimage} ${classes.desktoponly}`}>
-                        <p style={{textAlign:"center"}}><img className="img-fluid" src="/images/homepage/ellipse.svg" alt="" /></p>
+                        <p style={{textAlign:"center"}}><img className="img-fluid" src="/images/homepage/images/investment2.svg" alt="" /></p>
                     </div>
     </div>
     {/* <hr className={classes.secondboxhr}/> */}
@@ -162,7 +162,7 @@ useEffect(() => {
     <div className="container">
     <div className="row">
     <div className={`col-md-6 ${classes.weprovideimage}`}>
-                        <p style={{textAlign:"center"}}><img className="img-fluid" src="/images/homepage/ellipse.svg" alt="" /></p>
+                        <p style={{textAlign:"center"}}><img className="img-fluid" src="/images/homepage/images/investment3.svg" alt="" /></p>
                     </div>
         <div className="col-md-5">
         <h1 className={classes.about_firstbox_title}>Partnerships and<br/> Collaborative Investment<br/> Opportunities</h1>
@@ -196,7 +196,7 @@ useEffect(() => {
     <div className="container">
     <div className="row">
     <div className={`col-md-6 ${classes.weprovideimage} ${classes.mobileonly}`}>
-                        <p style={{textAlign:"center"}}><img className="img-fluid" src="/images/homepage/ellipse.svg" alt="" /></p>
+                        <p style={{textAlign:"center"}}><img className="img-fluid" src="/images/homepage/images/investment4.svg" alt="" /></p>
                     </div>
         <div className="col-md-5">
         <h1 className={classes.about_firstbox_title}>Security and Safety of<br/> Your Funds</h1>
@@ -215,7 +215,7 @@ useEffect(() => {
                     </p>   
         </div> 
         <div className={`col-md-6 ${classes.weprovideimage} ${classes.desktoponly}`}>
-                        <p style={{textAlign:"center"}}><img className="img-fluid" src="/images/homepage/ellipse.svg" alt="" /></p>
+                        <p style={{textAlign:"center"}}><img className="img-fluid" src="/images/homepage/images/investment4.svg" alt="" /></p>
                     </div>
     </div>
     {/* <hr className={classes.secondboxhr}/> */}
@@ -233,7 +233,7 @@ useEffect(() => {
     <div className="container">
     <div className="row">
     <div className={`col-md-6 ${classes.weprovideimage}`}>
-                        <p style={{textAlign:"center"}}><img className="img-fluid" src="/images/homepage/ellipse.svg" alt="" /></p>
+                        <p style={{textAlign:"center"}}><img className="img-fluid" src="/images/homepage/images/investment5.svg" alt="" /></p>
                     </div>
         <div className="col-md-5">
         <h1 className={classes.about_firstbox_title}>Real Estate Investment <br/> Opportunities</h1>

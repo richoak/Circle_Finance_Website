@@ -72,7 +72,7 @@ const query = router.query
     <div className="container">
     <div className="row">
     <div className={`col-md-6 ${classes.weprovideimage}`}>
-                        <p style={{textAlign:"center"}}><img className="img-fluid" src="/images/homepage/ellipse.svg" alt="" /></p>
+                        <p style={{textAlign:"center"}}><img className="img-fluid" src="/images/homepage/images/credit1.svg" alt="" /></p>
                     </div>
         <div className="col-md-5">
         <h1 className={classes.about_firstbox_title}>Personal Loans for Every Need</h1>
@@ -120,7 +120,7 @@ const query = router.query
     <div className="container">
     <div className="row">
     <div className={`col-md-6 ${classes.weprovideimage} ${classes.mobileonly}`}>
-                        <p style={{textAlign:"center"}}><img className="img-fluid" src="/images/homepage/ellipse.svg" alt="" /></p>
+                        <p style={{textAlign:"center"}}><img className="img-fluid" src="/images/homepage/images/credit2.svg" alt="" /></p>
                     </div>
         <div className="col-md-5">
         <h1 className={classes.about_firstbox_title}>Secure and Convenient<br/> Access to Funds</h1>
@@ -137,7 +137,7 @@ const query = router.query
                     </p>   
         </div> 
         <div className={`col-md-6  ${classes.weprovideimage}  ${classes.desktoponly}`}>
-                        <p style={{textAlign:"center"}}><img className="img-fluid" src="/images/homepage/ellipse.svg" alt="" /></p>
+                        <p style={{textAlign:"center"}}><img className="img-fluid" src="/images/homepage/images/credit3.svg" alt="" /></p>
                     </div>
     </div>
     {/* <hr className={classes.secondboxhr}/> */}
@@ -154,7 +154,7 @@ data-aos-duration="3500"
     <div className="container">
     <div className="row">
     <div className={`col-md-6 ${classes.weprovideimage}`}>
-                        <p style={{textAlign:"center"}}><img className="img-fluid" src="/images/homepage/ellipse.svg" alt="" /></p>
+                        <p style={{textAlign:"center"}}><img className="img-fluid" src="/images/homepage/images/credit4.svg" alt="" /></p>
                     </div>
         <div className="col-md-5">
         <h1 className={classes.about_firstbox_title}>Credit Building Tools and<br/> Resources</h1>

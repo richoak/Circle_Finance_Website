@@ -148,7 +148,7 @@ const About = () => {
 <div className="container">
     <div className="row">
     <div className={`col-md-6 ${classes.about_firstbox_image}`}>
-            <p style={{textAlign:"center"}}><img className="img-fluid" src="/images/homepage/rectangle.svg" alt="" /></p>
+            <p style={{textAlign:"center"}}><img className="img-fluid" src="/images/homepage/images/about2.svg" alt="" /></p>
         </div>
 
         <div className="col-md-5">
