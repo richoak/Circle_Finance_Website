@@ -27,6 +27,7 @@ const Faq = () => {
     <div className="row">
     <div className="col-md-6">
     <Accordion>
+      
   <Accordion.Item eventKey="0">
     <Accordion.Header className={classes.faqheader}>Do you have a physical office that I can visit?
 
