@@ -19,8 +19,8 @@ const Contact = () => {
             data-aos-duration="2000"
             >
       <div className={classes.contact2boxes}>
-      <div>
-        <img src="/images/homepage/contct_header.svg" alt="" />
+      <div >
+        <img style={{width:"100%"}} src="/images/homepage/images/contact1.svg" alt="" />
       </div>
 
       <div className="container">

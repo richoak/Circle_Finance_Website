@@ -23,7 +23,7 @@ const Growth = () => {
 
                <div className={`col-md-6 ${classes.investorsimage}`}>
      
-                <p style={{textAlign:"center"}} ><img className="img-fluid" src="/images/homepage/mockupphone.svg" alt="" /></p>
+                {/* <p style={{textAlign:"center"}} ><img className="img-fluid" src="/images/homepage/mockupphone.svg" alt="" /></p> */}
 
                </div>
 
