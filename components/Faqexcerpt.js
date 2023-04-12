@@ -30,51 +30,23 @@ const Faqexcerpt = () => {
     </Accordion.Body>
   </Accordion.Item>
 
+  <Accordion.Item eventKey="0">
+    <Accordion.Header className={classes.faqheader}>Do you have a physical office that I can visit?
+
+</Accordion.Header>
+    <Accordion.Body className={classes.faqbody}>
+
+    Yes, we do, you can visit our office at Plot 1702, Grand Pela Hotel Street, Durumi, Abuja.
+
+    </Accordion.Body>
+  </Accordion.Item>
+
   <Accordion.Item eventKey="1">
-    <Accordion.Header className={classes.faqheader}>Can I set-up more than 10 branches
+    <Accordion.Header className={classes.faqheader}>What type of investment do you do?
 
 </Accordion.Header>
     <Accordion.Body className={classes.faqbody}>
-    Boar Provides the all in one solution to cater for businesses to manage all on-prem and off-prem order sources in one system.
-
-    </Accordion.Body>
-  </Accordion.Item>
-
-  <Accordion.Item eventKey="2">
-    <Accordion.Header className={classes.faqheader}>How can i sign up?
-</Accordion.Header>
-    <Accordion.Body className={classes.faqbody}>
-    Boar Provides the all in one solution to cater for businesses to manage all on-prem and off-prem order sources in one system.
-
-    </Accordion.Body>
-  </Accordion.Item>
-
-  <Accordion.Item eventKey="3">
-    <Accordion.Header className={classes.faqheader}>What is the subscription like?
-</Accordion.Header>
-    <Accordion.Body className={classes.faqbody}>
-    Boar Provides the all in one solution to cater for businesses to manage all on-prem and off-prem order sources in one system.
-
-    </Accordion.Body>
-  </Accordion.Item>
-
-  <Accordion.Item eventKey="4">
-    <Accordion.Header className={classes.faqheader}>How do I set up?
-</Accordion.Header>
-    <Accordion.Body className={classes.faqbody}>
-    Boar Provides the all in one solution to cater for businesses to manage all on-prem and off-prem order sources in one system.
-
-    </Accordion.Body>
-  </Accordion.Item>
-
-  <Accordion.Item eventKey="5">
-    <Accordion.Header className={classes.faqheader}>How can i sign up?
-
-</Accordion.Header>
-    <Accordion.Body className={classes.faqbody}>
-    Boar Provides the all in one solution to cater for businesses to manage all on-prem and off-prem order sources in one system.
-
-
+    We are consistently exploring the investment industry as a company, we invest in Real estate, credits and Agriculture.
     </Accordion.Body>
   </Accordion.Item>
 
@@ -87,66 +59,21 @@ const Faqexcerpt = () => {
 
     <div className="col-md-6">
     <Accordion>
-  <Accordion.Item eventKey="0">
-    <Accordion.Header className={classes.faqheader}>What is Boar about?
-
+    <Accordion.Item eventKey="2">
+    <Accordion.Header className={classes.faqheader}>Are you registered with SEC or CBN?
 </Accordion.Header>
     <Accordion.Body className={classes.faqbody}>
-
-    Boar Provides the all in one solution to cater for businesses to manage all on-prem and off-prem order sources in one system.
-
-
-    </Accordion.Body>
-  </Accordion.Item>
-
-  <Accordion.Item eventKey="1">
-    <Accordion.Header className={classes.faqheader}>Can I set-up more than 10 branches
-
-</Accordion.Header>
-    <Accordion.Body className={classes.faqbody}>
-    Boar Provides the all in one solution to cater for businesses to manage all on-prem and off-prem order sources in one system.
-
-    </Accordion.Body>
-  </Accordion.Item>
-
-  <Accordion.Item eventKey="2">
-    <Accordion.Header className={classes.faqheader}>How can i sign up?
-</Accordion.Header>
-    <Accordion.Body className={classes.faqbody}>
-    Boar Provides the all in one solution to cater for businesses to manage all on-prem and off-prem order sources in one system.
-
+    We are registered with SEC and actively working on our registration with CBN.
     </Accordion.Body>
   </Accordion.Item>
 
   <Accordion.Item eventKey="3">
-    <Accordion.Header className={classes.faqheader}>What is the subscription like?
+    <Accordion.Header className={classes.faqheader}>	Do you give loans?
 </Accordion.Header>
     <Accordion.Body className={classes.faqbody}>
-    Boar Provides the all in one solution to cater for businesses to manage all on-prem and off-prem order sources in one system.
-
+    Yes, we do
     </Accordion.Body>
   </Accordion.Item>
-
-  <Accordion.Item eventKey="4">
-    <Accordion.Header className={classes.faqheader}>How do I set up?
-</Accordion.Header>
-    <Accordion.Body className={classes.faqbody}>
-    Boar Provides the all in one solution to cater for businesses to manage all on-prem and off-prem order sources in one system.
-
-    </Accordion.Body>
-  </Accordion.Item>
-
-  <Accordion.Item eventKey="5">
-    <Accordion.Header className={classes.faqheader}>How can i sign up?
-
-</Accordion.Header>
-    <Accordion.Body className={classes.faqbody}>
-    Boar Provides the all in one solution to cater for businesses to manage all on-prem and off-prem order sources in one system.
-
-
-    </Accordion.Body>
-  </Accordion.Item>
-
 
 
 

@@ -130,3 +130,10 @@ button:not(:disabled) {
       font-size:12px;
     }
   }
+
+  @media (min-width:205px) and (max-width:767px) {
+    button{
+      
+      font-size:11px;
+    }
+  }

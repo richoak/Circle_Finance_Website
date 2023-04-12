@@ -49,6 +49,10 @@
 
 }
 
+.menuitem:focus{
+    border: none!important;
+}
+
 .lastmenuitem{
     margin-right: 350px;
     color: #6B7487!important;

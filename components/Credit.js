@@ -28,7 +28,7 @@ const query = router.query
     <Header className={classes.header}/>
     <div
             data-aos="fade-up"
-            data-aos-delay="100"
+            // data-aos-delay="100"
             data-aos-duration="2000"
             >
     <div className={classes.about_second_box}>
@@ -97,7 +97,7 @@ const query = router.query
         <p className={classes.tabsbuttons}>
                     {/* <a target="_blank" href="https://app.circlefinance.com"><button  className={classes.homepage_button}>Start investing</button></a> */}
 
-                    <Link  as={Link} href="/investment">
+                    <Link  as={Link} href="https://app.circlefinance.com" target="_blank">
                     <p style={{cursor:"pointer"}}  className={classes.tabs_button}>Get access to loans 
                     <img src="/images/homepage/green-right-arrow.svg" style={{paddingLeft:"15px", fontSize:"20px"}}/>
                     </p>
@@ -128,7 +128,7 @@ const query = router.query
         With Circle Finance, you can access your loan funds quickly and easily. We offer secure and convenient online access to your loan account, so you can manage your funds from anywhere, at any time. Whether you need to make a payment or check your balance, our user-friendly platform makes it easy to stay on top of your finances.
             </h6>
         <p className={classes.tabsbuttons}>
-        <Link  as={Link} href="/investment">
+        <Link  as={Link} href="https://app.circlefinance.com" target="_blank">
                     <p style={{cursor:"pointer"}}  className={classes.tabs_button}>Get access to loans
                     <img src="/images/homepage/green-right-arrow.svg" style={{paddingLeft:"15px", fontSize:"20px"}}/>
                     </p>
@@ -163,7 +163,7 @@ data-aos-duration="3500"
              </h6>
         <p className={classes.tabsbuttons}>
 
-        <Link  as={Link} href="/investment">
+        <Link  as={Link} href="https://app.circlefinance.com" target="_blank">
                     <p  style={{cursor:"pointer"}}  className={classes.tabs_button}>Get access to loans 
                     <img src="/images/homepage/green-right-arrow.svg" style={{paddingLeft:"15px", fontSize:"20px"}}/>
                     </p>
@@ -187,7 +187,7 @@ data-aos-duration="4000"
     <div className="container">
     <div className="row">
     <div className={`col-md-6 ${classes.weprovideimage} ${classes.mobileonly}`}>
-                        <p style={{textAlign:"center"}}><img className="img-fluid" src="/images/homepage/ellipse.svg" alt="" /></p>
+                        <p style={{textAlign:"center"}}><img className="img-fluid" src="/images/homepage/images/credit5.svg" alt="" /></p>
                     </div>
         <div className="col-md-5">
         <h1 className={classes.about_firstbox_title}>Competitive Rates and Flexible Terms</h1>
@@ -197,7 +197,7 @@ data-aos-duration="4000"
             <p className={classes.tabsbuttons}>
                     {/* <a target="_blank" href="https://app.circlefinance.com"><button  className={classes.homepage_button}>Start investing</button></a> */}
 
-                    <Link  as={Link} href="/investment">
+                    <Link  as={Link} href="https://app.circlefinance.com" target="_blank">
                     <p style={{cursor:"pointer"}}   className={classes.tabs_button}>Get access to loans 
                     <img src="/images/homepage/green-right-arrow.svg" style={{paddingLeft:"15px", fontSize:"20px"}}/>
                     </p>
@@ -206,7 +206,7 @@ data-aos-duration="4000"
                     </p>   
         </div> 
         <div className={`col-md-6 ${classes.weprovideimage} ${classes.desktoponly}`}>
-                        <p style={{textAlign:"center"}}><img className="img-fluid" src="/images/homepage/ellipse.svg" alt="" /></p>
+                        <p style={{textAlign:"center"}}><img className="img-fluid" src="/images/homepage/images/credit5.svg" alt="" /></p>
                     </div>
     </div>
     {/* <hr className={classes.secondboxhr}/> */}
@@ -236,12 +236,8 @@ data-aos-duration="5000"
 
 
 {/* FOOTER */}
-<div
-data-aos="fade-up"
-data-aos-duration="5500"
->
 <Footer className={classes.footer}/>
-</div>
+
 {/* FOOTER */}
 
 </Fragment>

@@ -12,7 +12,9 @@
     font-weight:700;
     font-size:40px;
     line-height:48px;
-    padding-bottom:48px
+    padding-bottom:48px;
+    color:#A8B0BF;
+
 }
 
 .faq_subtitle{
@@ -95,7 +97,7 @@
         padding-top: 0px;
         font-family: 'Hanken Grotesk', sans-serif;
         font-weight:700;
-        font-size:32px;
+        font-size:30px;
         line-height: 38.4px;
     }
 
@@ -107,6 +109,8 @@
         font-weight:700;
         font-size:32px;
         line-height: 38.4px;
+        padding-bottom:48px;
+        color:#A8B0BF;
     }
 
     .faqhr{
